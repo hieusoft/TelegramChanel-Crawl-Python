@@ -1,0 +1,57 @@
+-- =========================================================
+-- 1️⃣ Bảng CHANNELS_CONFIG — cấu hình kênh nguồn / đích
+-- =========================================================
+CREATE TABLE IF NOT EXISTS channels (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    channel_id BIGINT NOT NULL,                -- ID kênh nguồn (Telegram)
+    target_channel_id BIGINT NOT NULL,         -- ID kênh đích để repost
+    old_watermark VARCHAR(255),
+    new_watermark VARCHAR(255),
+    apply_watermark BOOLEAN DEFAULT TRUE,
+    status ENUM('active','disabled') DEFAULT 'active',
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+-- =========================================================
+-- 2️⃣ Bảng POSTS — đại diện cho 1 bài đăng (bài đơn hoặc album)
+-- =========================================================
+
+CREATE TABLE IF NOT EXISTS posts (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    channel_id BIGINT NOT NULL,                -- ID kênh gốc
+    telegram_source_id BIGINT NOT NULL,        -- message_id hoặc grouped_id
+    is_group BOOLEAN DEFAULT FALSE,            -- TRUE nếu là album
+    parent_telegram_source_id BIGINT NULL,     -- Nếu là reply thì lưu message_id cha
+    type ENUM('text','photo','video','album') DEFAULT 'text', -- loại bài
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+
+    UNIQUE KEY unique_post (channel_id, telegram_source_id),
+    INDEX idx_telegram_source (telegram_source_id),
+    INDEX idx_parent_source (parent_telegram_source_id),
+
+    CONSTRAINT fk_parent_post
+        FOREIGN KEY (parent_telegram_source_id)
+        REFERENCES posts(telegram_source_id)
+        ON DELETE SET NULL
+);
+
+
+-- =========================================================
+-- 3️⃣ Bảng MESSAGES — từng phần tử trong bài đăng (text, ảnh, video, ...)
+-- =========================================================
+CREATE TABLE IF NOT EXISTS messages (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    post_id BIGINT NOT NULL,                   -- Liên kết tới bài post
+    telegram_message_id BIGINT NOT NULL UNIQUE,-- ID tin nhắn Telegram gốc
+    media_type ENUM('text','photo','video','document','audio') DEFAULT 'text',
+    original_text TEXT,                        -- text hoặc caption
+    translated_text TEXT,                      -- bản dịch (nếu có)
+    original_file_path VARCHAR(500),           -- đường dẫn file gốc
+    processed_file_path VARCHAR(500),          -- đường dẫn file đã xử lý (chèn watermark,...)
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+
+    FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE
+);
