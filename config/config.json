@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "api_id": 28288961,                  
+    "api_id": 28288961,
     "api_hash": "616b006a2ba5538ad6ec731844ebc05a",
     "session_file": "my_session.session"
   },
@@ -10,32 +10,28 @@
     "password": "",
     "db_name": "telegram_reposter"
   },
-  "channels": {
-    "default_status": "active",          
-    "apply_watermark": true             
+  "ocr": {
+    "use_gpu": true,
+    "background_color": [0, 0, 0],
+    "text_color": [255, 255, 255],
+    "font_path": "arial.ttf",
+    "padding":0.1
   },
-  "watermark": {
-    "position": "bottom-right",           
-    "opacity": 0.6,                      
-    "font_size": 36,                    
-    "color": "#FFFFFF"                    
-  },
-  
   "translation": {
-    "enabled": true,                      
-    "target_language": "en"            
+    "enabled": true,
+    "target_language": "en"
   },
   "scheduler": {
-    "check_messages_interval_sec": 30,   
-    "process_media_interval_sec": 10,     
-    "interval": 30           
+    "check_messages_interval_sec": 30,
+    "process_media_interval_sec": 10,
+    "interval": 30
   },
   "logging": {
-    "level": "INFO",                  
-    "file": "logs/bot.log"                
+    "level": "INFO",
+    "file": "logs/bot.log"
   },
   "media": {
-    "download_path": "downloads/",    
-    "processed_path": "processed/"     
+    "download_path": "downloads/",
+    "processed_path": "processed/"
   }
 }

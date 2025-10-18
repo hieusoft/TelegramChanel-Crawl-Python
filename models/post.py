@@ -3,13 +3,15 @@ from datetime import datetime
 class Post:
     TABLE_NAME = "posts"
 
-    def __init__(self, id=None, channel_id=None, telegram_source_id=None,parent_telegram_source_id=None,
+    def __init__(self, id=None, channel_id=None, telegram_source_id=None,
+                 parent_telegram_source_id=None, target_telegram_source_id=None,
                  is_group=False, type="text",
                  created_at=None, updated_at=None):
         self.id = id
         self.channel_id = channel_id
         self.telegram_source_id = telegram_source_id
         self.parent_telegram_source_id = parent_telegram_source_id
+        self.target_telegram_source_id = target_telegram_source_id
         self.is_group = is_group
         self.type = type
         self.created_at = created_at or datetime.utcnow()
@@ -19,13 +21,15 @@ class Post:
         """Thêm bản ghi mới vào bảng posts"""
         sql = f"""
             INSERT INTO {self.TABLE_NAME} 
-            (channel_id, telegram_source_id,parent_telegram_source_id ,is_group, type, created_at, updated_at)
-            VALUES (%s, %s, %s, %s,%s, %s, %s)
+            (channel_id, telegram_source_id, parent_telegram_source_id, target_telegram_source_id,
+             is_group, type, created_at, updated_at)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
         """
         cursor.execute(sql, (
             self.channel_id,
             self.telegram_source_id,
             self.parent_telegram_source_id,
+            self.target_telegram_source_id,
             self.is_group,
             self.type,
             self.created_at,
@@ -34,10 +38,14 @@ class Post:
         self.id = cursor.lastrowid
 
     @classmethod
-    def get_by_source_id(cls, cursor, channel_id, telegram_source_id):
-        """Lấy bản ghi theo channel_id + telegram_source_id"""
+    def get_by_source_id(cls, cursor, channel_id, telegram_source_id, target_telegram_source_id=None):
+        """Lấy bản ghi theo channel_id + telegram_source_id (+ target_telegram_source_id tùy chọn)"""
         sql = f"SELECT * FROM {cls.TABLE_NAME} WHERE channel_id=%s AND telegram_source_id=%s"
-        cursor.execute(sql, (channel_id, telegram_source_id))
+        params = [channel_id, telegram_source_id]
+        if target_telegram_source_id:
+            sql += " AND target_telegram_source_id=%s"
+            params.append(target_telegram_source_id)
+        cursor.execute(sql, params)
         data = cursor.fetchone()
         if data:
             return cls(**data)
@@ -50,22 +58,62 @@ class Post:
 
         sql = f"""
             UPDATE {self.TABLE_NAME}
-            SET is_group=%s, type=%s, parent_telegram_source_id=%s, updated_at=%s
+            SET is_group=%s, type=%s, parent_telegram_source_id=%s,
+                target_telegram_source_id=%s, updated_at=%s
             WHERE channel_id=%s AND telegram_source_id=%s
         """
         cursor.execute(sql, (
             self.is_group,
             self.type,
             self.parent_telegram_source_id,
+            self.target_telegram_source_id,
             datetime.utcnow(),
             self.channel_id,
             self.telegram_source_id
         ))
+    def update_target_by_source_id(self, cursor):
+        """Chỉ cập nhật target_telegram_source_id theo channel_id + telegram_source_id"""
+        if not self.channel_id or not self.telegram_source_id:
+            raise ValueError("channel_id và telegram_source_id là bắt buộc để cập nhật")
 
+        sql = f"""
+            UPDATE {self.TABLE_NAME}
+            SET target_telegram_source_id=%s, updated_at=%s
+            WHERE channel_id=%s AND telegram_source_id=%s
+        """
+        cursor.execute(sql, (
+            self.target_telegram_source_id,
+            datetime.utcnow(),
+            self.channel_id,
+            self.telegram_source_id
+        ))
     def delete_by_source_id(self, cursor):
         """Xóa bản ghi theo channel_id + telegram_source_id"""
         if not self.channel_id or not self.telegram_source_id:
             raise ValueError("channel_id và telegram_source_id là bắt buộc để xóa")
 
         sql = f"DELETE FROM {self.TABLE_NAME} WHERE channel_id=%s AND telegram_source_id=%s"
-        cursor.execute(sql, (self.channel_id, self.telegram_source_id))
+        params = [self.channel_id, self.telegram_source_id]
+        if self.target_telegram_source_id:
+            sql += " AND target_telegram_source_id=%s"
+            params.append(self.target_telegram_source_id)
+        cursor.execute(sql, params)
+    @classmethod
+    def get_target_by_source_id(cls, cursor, channel_id, telegram_source_id):
+        """
+        Lấy target_telegram_source_id dựa theo channel_id và telegram_source_id
+        """
+        sql = f"""
+            SELECT target_telegram_source_id 
+            FROM {cls.TABLE_NAME} 
+            WHERE channel_id = %s AND telegram_source_id = %s
+            LIMIT 1
+        """
+        cursor.execute(sql, (channel_id, telegram_source_id))
+        result = cursor.fetchone()
+
+        if result and "target_telegram_source_id" in result:
+            return result["target_telegram_source_id"]
+        elif result:  # Trường hợp fetchone() trả tuple
+            return result[0]
+        return None

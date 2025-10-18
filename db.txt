@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS posts (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     channel_id BIGINT NOT NULL,                -- ID kênh gốc
     telegram_source_id BIGINT NOT NULL,        -- message_id hoặc grouped_id
+    target_telegram_source_id BIGINT NOT NULL,  -- message_id hoặc grouped_id
     is_group BOOLEAN DEFAULT FALSE,            -- TRUE nếu là album
     parent_telegram_source_id BIGINT NULL,     -- Nếu là reply thì lưu message_id cha
     type ENUM('text','photo','video','album') DEFAULT 'text', -- loại bài
@@ -45,6 +46,7 @@ CREATE TABLE IF NOT EXISTS messages (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     post_id BIGINT NOT NULL,                   -- Liên kết tới bài post
     telegram_message_id BIGINT NOT NULL UNIQUE,-- ID tin nhắn Telegram gốc
+    target_telegram_message_id BIGINT DEFAULT NULL,
     media_type ENUM('text','photo','video','document','audio') DEFAULT 'text',
     original_text TEXT,                        -- text hoặc caption
     translated_text TEXT,                      -- bản dịch (nếu có)

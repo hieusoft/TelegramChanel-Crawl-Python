@@ -9,8 +9,26 @@ class Translator:
 
     def translate(self, text):
         try:
-            translated = self.translator.translate(text, dest=self.target_lang)
-            return translated.text
+            if not text:
+                return ""
+
+            lines = text.split('\n')
+            translated_lines = []
+
+            for line in lines:
+                if not line.strip():
+                    translated_lines.append("")  # Giữ dòng trống
+                    continue
+
+                try:
+                    translated_text = self.translator.translate(line, dest=self.target_lang).text
+                    translated_lines.append(str(translated_text or ""))  # Ép chuỗi, tránh None
+                except Exception as inner_e:
+                    print(f"[Translator Error - line skipped] {inner_e}")
+                    translated_lines.append(line)  # Giữ nguyên dòng nếu dịch lỗi
+
+            return "\n".join(translated_lines)
+
         except Exception as e:
             print(f"[Translator Error] {e}")
             return text

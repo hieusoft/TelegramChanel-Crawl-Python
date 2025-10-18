@@ -17,7 +17,7 @@ console = Console()
 
 
 def clear_console():
-    """Xóa toàn bộ màn hình terminal (Windows / Linux)."""
+  
     os.system('cls' if os.name == 'nt' else 'clear')
 
 
@@ -43,21 +43,16 @@ class BotServiceManager:
                 "status": f"❌ {str(e)[:25]}",
                 "duration": f"{duration}s"
             }
-
     async def run_all_channels(self):
         cursor = get_cursor()
         channels = Channel.list_channels(cursor, status="active")
         cursor.close()
-
         if not channels:
             console.print("[yellow]⚠️  Không tìm thấy channel nào đang hoạt động.[/yellow]")
             return []
-
         await self.telegram_client.start()
         results = await asyncio.gather(*(self.process_channel(ch) for ch in channels))
         await self.telegram_client.disconnect()
-
-        # Thêm timestamp cho từng kết quả
         scan_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         for r in results:
             r["time"] = scan_time
@@ -66,7 +61,7 @@ class BotServiceManager:
 
 
 def show_results_table(results, scan_time):
-    """Hiển thị bảng kết quả mỗi vòng quét."""
+
     clear_console()
 
     console.print(
@@ -76,9 +71,7 @@ def show_results_table(results, scan_time):
             border_style="cyan",
         )
     )
-
     console.print(f"⏳ [bold yellow]Bắt đầu vòng quét mới:[/bold yellow] {scan_time}\n")
-
     table = Table(
         title="📊 [bold cyan]Kết quả xử lý kênh Telegram[/bold cyan]",
         box=box.SQUARE_DOUBLE_HEAD,
@@ -89,7 +82,6 @@ def show_results_table(results, scan_time):
     table.add_column("Trạng thái", justify="center")
     table.add_column("Thời gian xử lý", justify="center", style="yellow")
     table.add_column("Thời gian quét", justify="center", style="bold white")
-
     for r in results:
         color = "green" if "✅" in r["status"] else "red"
         table.add_row(
@@ -132,7 +124,6 @@ async def main():
             console.print("[green]🛑 Đóng kết nối MySQL thành công.[/green]")
         except Exception as e:
             console.print(f"[red]❌ Lỗi khi đóng kết nối MySQL: {e}[/red]")
-
 
 if __name__ == "__main__":
     asyncio.run(main())

@@ -1,0 +1,966 @@
+2025-10-19 00:01:41 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:01:41 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:01:42 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=36, type=album)
+2025-10-19 00:01:42 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 00:01:46 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 00:01:46 [DEBUG] [Channel 3117955083] 📸 Saved photo (msg_id=36) at downloads/3117955083\36.jpg
+2025-10-19 00:01:47 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 00:01:51 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 00:01:51 [DEBUG] [Channel 3117955083] 📸 Saved photo (msg_id=35) at downloads/3117955083\35.jpg
+2025-10-19 00:01:51 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=6, type=text)
+2025-10-19 00:01:52 [DEBUG] [Channel 3117955083] 📝 Saved text message (msg_id=6)
+2025-10-19 00:01:52 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=5, type=text)
+2025-10-19 00:01:52 [DEBUG] [Channel 3117955083] 📝 Saved text message (msg_id=5)
+2025-10-19 00:01:52 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:01:52 [INFO] 💬 Sent text → -1002925426333 | ID: 108
+2025-10-19 00:01:52 [INFO] 💬 Sent text → -1002925426333 | ID: 109
+2025-10-19 00:01:54 [INFO] 📸 Sent album (2 ảnh) → -1002925426333 | IDs: [110, 111]
+2025-10-19 00:01:54 [INFO] [Channel 3117955083] ✅ Completed: 4 new messages saved.
+2025-10-19 00:01:54 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:06:01 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:06:01 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:06:02 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=36, type=album)
+2025-10-19 00:06:02 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 00:06:08 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 00:06:08 [DEBUG] [Channel 3117955083] 📸 Saved photo (msg_id=36) at downloads/3117955083\36.jpg
+2025-10-19 00:06:08 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 00:06:13 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 00:06:13 [DEBUG] [Channel 3117955083] 📸 Saved photo (msg_id=35) at downloads/3117955083\35.jpg
+2025-10-19 00:06:13 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=6, type=text)
+2025-10-19 00:06:13 [DEBUG] [Channel 3117955083] 📝 Saved text message (msg_id=6)
+2025-10-19 00:06:13 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=5, type=text)
+2025-10-19 00:06:14 [DEBUG] [Channel 3117955083] 📝 Saved text message (msg_id=5)
+2025-10-19 00:06:14 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:06:14 [INFO] 💬 Sent text → -1002925426333 | ID: 112
+2025-10-19 00:06:15 [INFO] 💬 Sent text → -1002925426333 | ID: 113
+2025-10-19 00:06:16 [INFO] 📸 Sent album (2 ảnh) → -1002925426333 | IDs: [114, 115]
+2025-10-19 00:06:16 [INFO] [Channel 3117955083] ✅ Completed: 4 new messages saved.
+2025-10-19 00:06:16 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:10:12 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:10:12 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:10:12 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=36, type=album)
+2025-10-19 00:10:13 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 00:10:17 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 00:10:17 [DEBUG] [Channel 3117955083] 📸 Saved photo (msg_id=36) at downloads/3117955083\36.jpg
+2025-10-19 00:10:17 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 00:10:21 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 00:10:22 [DEBUG] [Channel 3117955083] 📸 Saved photo (msg_id=35) at downloads/3117955083\35.jpg
+2025-10-19 00:10:22 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:10:23 [INFO] 📸 Sent album (2 ảnh) → -1002925426333 | IDs: [116, 117]
+2025-10-19 00:10:23 [INFO] [Channel 3117955083] ✅ Completed: 2 new messages saved.
+2025-10-19 00:10:23 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:10:54 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:10:54 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:10:54 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:10:54 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:10:54 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:10:54 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:11:25 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:11:25 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:11:25 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:11:25 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:11:25 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:11:25 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:11:55 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:11:55 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:11:56 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:11:56 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:11:56 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:11:56 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:12:26 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:12:26 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:12:26 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:12:26 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:12:26 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:12:26 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:16:00 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:16:00 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:16:00 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=36, type=album)
+2025-10-19 00:16:00 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 00:16:05 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 00:16:05 [DEBUG] [Channel 3117955083] 📸 Saved photo (msg_id=36) at downloads/3117955083\36.jpg
+2025-10-19 00:16:05 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 00:16:09 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 00:16:10 [DEBUG] [Channel 3117955083] 📸 Saved photo (msg_id=35) at downloads/3117955083\35.jpg
+2025-10-19 00:16:10 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:16:11 [INFO] 📸 Sent album (2 ảnh) → -1002925426333 | IDs: [118, 119]
+2025-10-19 00:16:11 [INFO] [Channel 3117955083] ✅ Completed: 2 new messages saved.
+2025-10-19 00:16:11 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:16:42 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:16:42 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:16:42 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:16:42 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:16:42 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:16:42 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:17:13 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:17:13 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:17:13 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:17:13 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:17:13 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:17:13 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:19:58 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:19:58 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:19:58 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=36, type=album)
+2025-10-19 00:19:58 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 00:20:03 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 00:20:03 [DEBUG] [Channel 3117955083] 📸 Saved photo (msg_id=36) at downloads/3117955083\36.jpg
+2025-10-19 00:20:03 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 00:20:07 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 00:20:07 [DEBUG] [Channel 3117955083] 📸 Saved photo (msg_id=35) at downloads/3117955083\35.jpg
+2025-10-19 00:20:07 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:20:09 [INFO] 📸 Sent album (2 ảnh) → -1002925426333 | IDs: [120, 121]
+2025-10-19 00:20:09 [INFO] [Channel 3117955083] ✅ Completed: 2 new messages saved.
+2025-10-19 00:20:09 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:20:40 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:20:40 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:20:40 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:20:40 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:20:40 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:20:40 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:22:35 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:22:35 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:22:35 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:22:35 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:22:35 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:22:35 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:23:19 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:23:19 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:23:19 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=36, type=album)
+2025-10-19 00:23:19 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 00:23:24 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 00:23:24 [DEBUG] [Channel 3117955083] 📸 Saved photo (msg_id=36) at downloads/3117955083\36.jpg
+2025-10-19 00:23:24 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 00:23:28 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 00:23:29 [DEBUG] [Channel 3117955083] 📸 Saved photo (msg_id=35) at downloads/3117955083\35.jpg
+2025-10-19 00:23:29 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:23:30 [INFO] 📸 Sent album (2 ảnh) → -1002925426333 | IDs: [122, 123]
+2025-10-19 00:23:30 [INFO] [Channel 3117955083] ✅ Completed: 2 new messages saved.
+2025-10-19 00:23:30 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:30:08 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:30:08 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:30:08 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=39, type=text)
+2025-10-19 00:30:08 [DEBUG] [Channel 3117955083] 📝 Saved text message (msg_id=39)
+2025-10-19 00:30:08 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=36, type=album)
+2025-10-19 00:30:09 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 00:30:13 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 00:30:13 [DEBUG] [Channel 3117955083] 📸 Saved photo (msg_id=36) at downloads/3117955083\36.jpg
+2025-10-19 00:30:13 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 00:30:17 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 00:30:18 [DEBUG] [Channel 3117955083] 📸 Saved photo (msg_id=35) at downloads/3117955083\35.jpg
+2025-10-19 00:30:18 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=6, type=text)
+2025-10-19 00:30:18 [DEBUG] [Channel 3117955083] 📝 Saved text message (msg_id=6)
+2025-10-19 00:30:18 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=5, type=text)
+2025-10-19 00:30:18 [DEBUG] [Channel 3117955083] 📝 Saved text message (msg_id=5)
+2025-10-19 00:30:18 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=4, type=text)
+2025-10-19 00:30:19 [DEBUG] [Channel 3117955083] 📝 Saved text message (msg_id=4)
+2025-10-19 00:30:19 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:30:19 [INFO] 💬 Sent text → -1002925426333 | ID: 124
+2025-10-19 00:30:19 [INFO] 💬 Sent text → -1002925426333 | ID: 125
+2025-10-19 00:30:19 [INFO] 💬 Sent text → -1002925426333 | ID: 126
+2025-10-19 00:30:21 [INFO] 📸 Sent album (2 ảnh) → -1002925426333 | IDs: [127, 128]
+2025-10-19 00:30:21 [INFO] 💬 Sent text → -1002925426333 | ID: 129
+2025-10-19 00:30:21 [INFO] [Channel 3117955083] ✅ Completed: 6 new messages saved.
+2025-10-19 00:30:21 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:30:52 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:30:52 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:30:52 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 00:30:52 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:30:52 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 00:30:52 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 00:30:52 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 4
+2025-10-19 00:30:52 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:30:52 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:30:52 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:31:23 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:31:23 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:31:23 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 00:31:23 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:31:23 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 00:31:23 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 00:31:23 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 4
+2025-10-19 00:31:23 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:31:23 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:31:23 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:31:53 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:31:53 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:31:54 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 00:31:54 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:31:54 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 00:31:54 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 00:31:54 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 4
+2025-10-19 00:31:54 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:31:54 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:31:54 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:32:24 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:32:24 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:32:24 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 00:32:24 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:32:24 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 00:32:24 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 00:32:24 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 4
+2025-10-19 00:32:24 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:32:24 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:32:24 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:34:18 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:34:18 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:34:18 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 00:34:18 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:34:18 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 00:34:18 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 00:34:18 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 4
+2025-10-19 00:34:18 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:34:18 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:34:18 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:34:48 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:34:48 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:34:49 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=40, type=text)
+2025-10-19 00:34:49 [DEBUG] [Channel 3117955083] 📝 Saved text message (msg_id=40)
+2025-10-19 00:34:49 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 00:34:49 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:34:49 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 00:34:49 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 00:34:49 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:34:49 [INFO] 💬 Sent text → -1002925426333 | ID: 130
+2025-10-19 00:34:49 [INFO] [Channel 3117955083] ✅ Completed: 1 new messages saved.
+2025-10-19 00:34:49 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:35:20 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:35:20 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:35:20 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 40
+2025-10-19 00:35:20 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 00:35:20 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:35:20 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 00:35:20 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 00:35:20 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:35:20 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:35:20 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:43:46 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:43:46 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:43:47 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 40
+2025-10-19 00:43:47 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 00:43:47 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:43:47 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 00:43:47 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 00:43:47 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:43:47 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:43:47 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:44:17 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:44:17 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:44:17 [INFO] [Channel 3117955083] 💾 Saved new post (msg_id=41, type=text)
+2025-10-19 00:44:18 [DEBUG] [Channel 3117955083] 📝 Saved text message (msg_id=41)
+2025-10-19 00:44:18 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 40
+2025-10-19 00:44:18 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 00:44:18 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:44:18 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 00:44:18 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:44:18 [INFO] 💬 Sent text → -1002925426333 | ID: 131
+2025-10-19 00:44:18 [INFO] [Channel 3117955083] ✅ Completed: 1 new messages saved.
+2025-10-19 00:44:18 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:44:49 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:44:49 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:44:49 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 00:44:49 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 40
+2025-10-19 00:44:49 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 00:44:49 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:44:49 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 00:44:49 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:44:49 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:44:49 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:48:22 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:48:22 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:48:24 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 00:48:28 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 00:48:28 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 00:48:32 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 00:48:33 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:48:33 [INFO] [Channel 3117955083] 💾 Committed 5 new posts.
+2025-10-19 00:48:33 [INFO] [Channel 3117955083] 📝 Committed 6 new messages.
+2025-10-19 00:48:33 [INFO] 💬 Sent text → -1002925426333 | ID: 132
+2025-10-19 00:48:34 [INFO] 💬 Sent text → -1002925426333 | ID: 133
+2025-10-19 00:48:35 [INFO] 📸 Sent album (2 ảnh) → -1002925426333 | IDs: [134, 135]
+2025-10-19 00:48:35 [INFO] 💬 Sent text → -1002925426333 | ID: 136
+2025-10-19 00:48:36 [INFO] 💬 Sent text → -1002925426333 | ID: 137
+2025-10-19 00:48:36 [INFO] [Channel 3117955083] ✅ Completed: 6 new messages saved.
+2025-10-19 00:48:36 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:49:06 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:49:06 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:49:07 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 00:49:07 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 00:49:07 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:49:07 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 00:49:07 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 00:49:07 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:49:07 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 00:49:07 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 00:49:07 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:49:07 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:49:37 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:49:37 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:49:38 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 00:49:38 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 00:49:38 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:49:38 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 00:49:38 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 00:49:38 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:49:38 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 00:49:38 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 00:49:38 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:49:38 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:50:08 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:50:08 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:50:08 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 00:50:08 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 00:50:08 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:50:08 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 00:50:08 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 00:50:08 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:50:08 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 00:50:08 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 00:50:08 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:50:08 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:50:39 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:50:39 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:50:39 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 00:50:39 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 00:50:39 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:50:39 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 00:50:39 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 00:50:39 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:50:39 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 00:50:39 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 00:50:39 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:50:39 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:51:10 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:51:10 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:51:10 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 00:51:10 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 00:51:10 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 00:51:10 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 00:51:10 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 00:51:10 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:51:10 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 00:51:10 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 00:51:10 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 00:51:10 [INFO] 🛑 Telegram client disconnected
+2025-10-19 00:59:24 [INFO] ✅ Telegram client started successfully
+2025-10-19 00:59:24 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 00:59:25 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 00:59:29 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 00:59:30 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 00:59:34 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 00:59:35 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 00:59:35 [INFO] [Channel 3117955083] 💾 Committed 5 new posts.
+2025-10-19 00:59:35 [INFO] [Channel 3117955083] 📝 Committed 6 new messages.
+2025-10-19 00:59:35 [INFO] 💬 Sent text → -1002925426333 | ID: 138
+2025-10-19 00:59:35 [INFO] 💬 Sent text → -1002925426333 | ID: 139
+2025-10-19 00:59:37 [INFO] 📸 Sent album (2 ảnh) → -1002925426333 | IDs: [140, 141]
+2025-10-19 00:59:37 [INFO] 💬 Sent text → -1002925426333 | ID: 142
+2025-10-19 00:59:38 [INFO] 💬 Sent text → -1002925426333 | ID: 143
+2025-10-19 00:59:38 [INFO] [Channel 3117955083] ✅ Completed: 6 new messages saved.
+2025-10-19 00:59:38 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:07:06 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:07:06 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:07:08 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 01:07:12 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 01:07:12 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 01:07:16 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 01:07:17 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:07:17 [INFO] [Channel 3117955083] 💾 Committed 5 new posts.
+2025-10-19 01:07:17 [INFO] [Channel 3117955083] 📝 Committed 6 new messages.
+2025-10-19 01:07:18 [INFO] 💬 Sent text → -1002925426333 | ID: 144
+2025-10-19 01:07:18 [INFO] 💬 Sent text → -1002925426333 | ID: 145
+2025-10-19 01:07:19 [INFO] 📸 Sent album (2 ảnh) → -1002925426333 | IDs: [146, 147]
+2025-10-19 01:07:20 [INFO] 💬 Sent text → -1002925426333 | ID: 148
+2025-10-19 01:07:20 [INFO] 💬 Sent text → -1002925426333 | ID: 149
+2025-10-19 01:07:20 [INFO] [Channel 3117955083] ✅ Completed: 6 new messages saved.
+2025-10-19 01:07:20 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:11:31 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:11:31 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:11:32 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 01:11:36 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 01:11:37 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 01:11:41 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 01:11:42 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:11:42 [INFO] [Channel 3117955083] 💾 Committed 5 new posts.
+2025-10-19 01:11:42 [INFO] [Channel 3117955083] 📝 Committed 6 new messages.
+2025-10-19 01:11:42 [INFO] 💬 Sent text → -1002925426333 | ID: 150
+2025-10-19 01:11:42 [INFO] 💬 Sent text → -1002925426333 | ID: 151
+2025-10-19 01:11:44 [INFO] 📸 Sent album (2 ảnh) → -1002925426333 | IDs: [152, 153]
+2025-10-19 01:11:44 [INFO] 💬 Sent text → -1002925426333 | ID: 154
+2025-10-19 01:11:44 [INFO] 💬 Sent text → -1002925426333 | ID: 155
+2025-10-19 01:11:44 [INFO] [Channel 3117955083] ✅ Completed: 6 new messages saved.
+2025-10-19 01:11:44 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:12:15 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:12:15 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:12:15 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 01:12:15 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 01:12:15 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 01:12:15 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 01:12:15 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 01:12:15 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:12:15 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:12:15 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:12:15 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:12:15 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:12:45 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:12:45 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:12:46 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 01:12:46 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 01:12:46 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 01:12:46 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 01:12:46 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 01:12:46 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:12:46 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:12:46 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:12:46 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:12:46 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:18:47 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:18:47 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:18:48 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 01:18:52 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 01:18:53 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 01:18:57 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 01:18:58 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:18:58 [INFO] [Channel 3117955083] 💾 Committed 5 new posts.
+2025-10-19 01:18:58 [INFO] [Channel 3117955083] 📝 Committed 6 new messages.
+2025-10-19 01:18:58 [INFO] 💬 Sent text → -1002925426333 | ID: 156
+2025-10-19 01:18:58 [INFO] 💬 Sent text → -1002925426333 | ID: 157
+2025-10-19 01:19:00 [INFO] 📸 Sent album (2 ảnh) → -1002925426333 | IDs: [158, 159]
+2025-10-19 01:19:00 [INFO] 💬 Sent text → -1002925426333 | ID: 160
+2025-10-19 01:19:00 [INFO] 💬 Sent text → -1002925426333 | ID: 161
+2025-10-19 01:19:00 [INFO] [Channel 3117955083] ✅ Completed: 6 new messages saved.
+2025-10-19 01:19:00 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:19:31 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:19:31 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:19:31 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 01:19:31 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 01:19:31 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 01:19:35 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 01:19:36 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 01:19:40 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 01:19:40 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 01:19:40 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 01:19:40 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:19:40 [ERROR] [Channel 3117955083] ❗ Error fetching messages: (1062, "Duplicate entry '3117955083-35' for key 'unique_post'")
+2025-10-19 01:19:40 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:20:11 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:20:11 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:20:11 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 01:20:11 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 01:20:11 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 01:20:15 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 01:20:16 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 01:20:20 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 01:20:20 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 01:20:20 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 01:20:20 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:20:20 [ERROR] [Channel 3117955083] ❗ Error fetching messages: (1062, "Duplicate entry '3117955083-35' for key 'unique_post'")
+2025-10-19 01:20:20 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:20:51 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:20:51 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:20:51 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 01:20:51 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 01:20:51 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 01:20:56 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 01:20:56 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 01:21:01 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 01:21:01 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 01:21:01 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 01:21:01 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:21:01 [ERROR] [Channel 3117955083] ❗ Error fetching messages: (1062, "Duplicate entry '3117955083-35' for key 'unique_post'")
+2025-10-19 01:21:01 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:24:17 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:24:17 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:24:17 [ERROR] [Channel 3117955083] ❗ Error fetching messages: local variable 'is_group' referenced before assignment
+2025-10-19 01:24:17 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:24:47 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:24:47 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:24:47 [ERROR] [Channel 3117955083] ❗ Error fetching messages: local variable 'is_group' referenced before assignment
+2025-10-19 01:24:48 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:26:56 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:26:56 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:26:57 [ERROR] [Channel 3117955083] ❗ Error fetching messages: 'Message' object has no attribute 'telegram_source_id'
+2025-10-19 01:26:57 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:27:56 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:27:56 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:27:58 [DEBUG] 📥 Đã tải ảnh 36 → downloads/3117955083\36.jpg
+2025-10-19 01:28:02 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\36.jpg
+2025-10-19 01:28:02 [DEBUG] 📥 Đã tải ảnh 35 → downloads/3117955083\35.jpg
+2025-10-19 01:28:06 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\35.jpg
+2025-10-19 01:28:07 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:28:07 [INFO] [Channel 3117955083] 💾 Committed 5 new posts.
+2025-10-19 01:28:07 [INFO] [Channel 3117955083] 📝 Committed 6 new messages.
+2025-10-19 01:28:07 [INFO] 💬 Sent text → -1002925426333 | ID: 162
+2025-10-19 01:28:08 [INFO] 💬 Sent text → -1002925426333 | ID: 163
+2025-10-19 01:28:09 [INFO] 📸 Sent album (2 ảnh) → -1002925426333 | IDs: [164, 165]
+2025-10-19 01:28:10 [INFO] 💬 Sent text → -1002925426333 | ID: 166
+2025-10-19 01:28:10 [INFO] 💬 Sent text → -1002925426333 | ID: 167
+2025-10-19 01:28:10 [INFO] [Channel 3117955083] ✅ Completed: 6 new messages saved.
+2025-10-19 01:28:10 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:28:40 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:28:40 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:28:41 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 01:28:41 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 01:28:41 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 01:28:41 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 01:28:41 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 01:28:41 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:28:41 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:28:41 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:28:41 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:28:41 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:32:06 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:32:06 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:32:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 01:32:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 01:32:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 01:32:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 01:32:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 01:32:06 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:32:06 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:32:06 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:32:06 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:32:06 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:32:37 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:32:37 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:32:37 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 01:32:37 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 01:32:37 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 01:32:37 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 01:32:37 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 5
+2025-10-19 01:32:37 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:32:37 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:32:37 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:32:37 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:32:37 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:33:08 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:33:08 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:33:08 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 01:33:08 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 01:33:08 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 01:33:08 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 01:33:08 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:33:08 [INFO] [Channel 3117955083] 💾 Committed 1 new posts.
+2025-10-19 01:33:08 [INFO] [Channel 3117955083] 📝 Committed 1 new messages.
+2025-10-19 01:33:08 [INFO] 💬 Sent text → -1002925426333 | ID: 168
+2025-10-19 01:33:08 [INFO] [Channel 3117955083] ✅ Completed: 1 new messages saved.
+2025-10-19 01:33:09 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:35:31 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:35:31 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:35:31 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 42
+2025-10-19 01:35:31 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 01:35:31 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 01:35:31 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 01:35:31 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 6
+2025-10-19 01:35:31 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:35:31 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:35:31 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:35:31 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:35:31 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:36:02 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:36:02 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:36:02 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 42
+2025-10-19 01:36:02 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 01:36:02 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 01:36:02 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 36
+2025-10-19 01:36:02 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:36:02 [INFO] [Channel 3117955083] 💾 Committed 1 new posts.
+2025-10-19 01:36:02 [INFO] [Channel 3117955083] 📝 Committed 1 new messages.
+2025-10-19 01:36:03 [INFO] 💬 Sent text → -1002925426333 | ID: 169
+2025-10-19 01:36:03 [INFO] [Channel 3117955083] ✅ Completed: 1 new messages saved.
+2025-10-19 01:36:03 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:36:33 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:36:33 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:36:34 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 43
+2025-10-19 01:36:34 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 42
+2025-10-19 01:36:34 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 01:36:34 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 01:36:34 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:36:34 [INFO] [Channel 3117955083] 💾 Committed 1 new posts.
+2025-10-19 01:36:34 [INFO] [Channel 3117955083] 📝 Committed 1 new messages.
+2025-10-19 01:36:34 [INFO] 💬 Sent text → -1002925426333 | ID: 170
+2025-10-19 01:36:34 [INFO] [Channel 3117955083] ✅ Completed: 1 new messages saved.
+2025-10-19 01:36:34 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:38:13 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:38:13 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:38:14 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 44
+2025-10-19 01:38:14 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 43
+2025-10-19 01:38:14 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 42
+2025-10-19 01:38:14 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 01:38:14 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 01:38:14 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:38:14 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:38:14 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:38:14 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:38:14 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:38:44 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:38:44 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:38:45 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 44
+2025-10-19 01:38:45 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 43
+2025-10-19 01:38:45 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 42
+2025-10-19 01:38:45 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 01:38:45 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 39
+2025-10-19 01:38:45 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:38:45 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:38:45 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:38:45 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:38:45 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:39:15 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:39:15 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:39:16 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 44
+2025-10-19 01:39:16 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 43
+2025-10-19 01:39:16 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 42
+2025-10-19 01:39:16 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 41
+2025-10-19 01:39:16 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:39:16 [INFO] [Channel 3117955083] 💾 Committed 1 new posts.
+2025-10-19 01:39:16 [INFO] [Channel 3117955083] 📝 Committed 1 new messages.
+2025-10-19 01:39:16 [INFO] 💬 Sent text → -1002925426333 | ID: 171
+2025-10-19 01:39:16 [INFO] [Channel 3117955083] ✅ Completed: 1 new messages saved.
+2025-10-19 01:39:16 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:39:47 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:39:47 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:39:47 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 45
+2025-10-19 01:39:47 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 44
+2025-10-19 01:39:47 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 43
+2025-10-19 01:39:47 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 42
+2025-10-19 01:39:47 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:39:47 [INFO] [Channel 3117955083] 💾 Committed 1 new posts.
+2025-10-19 01:39:47 [INFO] [Channel 3117955083] 📝 Committed 1 new messages.
+2025-10-19 01:39:48 [INFO] 💬 Sent text → -1002925426333 | ID: 172
+2025-10-19 01:39:48 [INFO] [Channel 3117955083] ✅ Completed: 1 new messages saved.
+2025-10-19 01:39:48 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:47:19 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:47:19 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:47:20 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 46
+2025-10-19 01:47:20 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 45
+2025-10-19 01:47:20 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 44
+2025-10-19 01:47:20 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 43
+2025-10-19 01:47:20 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 42
+2025-10-19 01:47:20 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:47:20 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:47:20 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:47:20 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:47:20 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:47:50 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:47:50 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:47:51 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 46
+2025-10-19 01:47:51 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 45
+2025-10-19 01:47:51 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 44
+2025-10-19 01:47:51 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 43
+2025-10-19 01:47:51 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:47:51 [INFO] [Channel 3117955083] 💾 Committed 1 new posts.
+2025-10-19 01:47:51 [INFO] [Channel 3117955083] 📝 Committed 1 new messages.
+2025-10-19 01:47:51 [INFO] 💬 Sent text → -1002925426333 | ID: 173
+2025-10-19 01:47:51 [INFO] [Channel 3117955083] ✅ Completed: 1 new messages saved.
+2025-10-19 01:47:51 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:48:22 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:48:22 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:48:22 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 47
+2025-10-19 01:48:22 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 46
+2025-10-19 01:48:22 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 45
+2025-10-19 01:48:22 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 44
+2025-10-19 01:48:22 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:48:22 [INFO] [Channel 3117955083] 💾 Committed 1 new posts.
+2025-10-19 01:48:22 [INFO] [Channel 3117955083] 📝 Committed 1 new messages.
+2025-10-19 01:48:22 [INFO] 💬 Sent text → -1002925426333 | ID: 174
+2025-10-19 01:48:22 [INFO] [Channel 3117955083] ✅ Completed: 1 new messages saved.
+2025-10-19 01:48:22 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:48:53 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:48:53 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:48:53 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 48
+2025-10-19 01:48:53 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 47
+2025-10-19 01:48:53 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 46
+2025-10-19 01:48:53 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 45
+2025-10-19 01:48:53 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 44
+2025-10-19 01:48:53 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:48:53 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:48:53 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:48:53 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:48:53 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:49:24 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:49:24 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:49:25 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 48
+2025-10-19 01:49:25 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 47
+2025-10-19 01:49:25 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 46
+2025-10-19 01:49:25 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 45
+2025-10-19 01:49:25 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:49:25 [INFO] [Channel 3117955083] 💾 Committed 1 new posts.
+2025-10-19 01:49:25 [INFO] [Channel 3117955083] 📝 Committed 1 new messages.
+2025-10-19 01:49:25 [INFO] 💬 Sent text → -1002925426333 | ID: 175
+2025-10-19 01:49:25 [INFO] [Channel 3117955083] ✅ Completed: 1 new messages saved.
+2025-10-19 01:49:25 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:49:56 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:49:56 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:49:56 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 49
+2025-10-19 01:49:56 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 48
+2025-10-19 01:49:56 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 47
+2025-10-19 01:49:56 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 46
+2025-10-19 01:49:56 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 45
+2025-10-19 01:49:56 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:49:56 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:49:56 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:49:56 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:49:56 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:50:26 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:50:26 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:50:28 [DEBUG] 📥 Đã tải ảnh 50 → downloads/3117955083\50.jpg
+2025-10-19 01:50:33 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\50.jpg
+2025-10-19 01:50:33 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 49
+2025-10-19 01:50:33 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 48
+2025-10-19 01:50:33 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 47
+2025-10-19 01:50:33 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 46
+2025-10-19 01:50:33 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:50:33 [INFO] [Channel 3117955083] 💾 Committed 1 new posts.
+2025-10-19 01:50:33 [INFO] [Channel 3117955083] 📝 Committed 1 new messages.
+2025-10-19 01:50:34 [INFO] 🖼️ Sent photo → -1002925426333 | ID: 176
+2025-10-19 01:50:34 [INFO] [Channel 3117955083] ✅ Completed: 1 new messages saved.
+2025-10-19 01:50:34 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:51:05 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:51:05 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:51:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 50
+2025-10-19 01:51:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 49
+2025-10-19 01:51:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 48
+2025-10-19 01:51:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 47
+2025-10-19 01:51:06 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:51:06 [INFO] [Channel 3117955083] 💾 Committed 1 new posts.
+2025-10-19 01:51:06 [INFO] [Channel 3117955083] 📝 Committed 1 new messages.
+2025-10-19 01:51:06 [INFO] 💬 Sent text → -1002925426333 | ID: 177
+2025-10-19 01:51:06 [INFO] [Channel 3117955083] ✅ Completed: 1 new messages saved.
+2025-10-19 01:51:06 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:54:25 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:54:25 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:54:25 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 51
+2025-10-19 01:54:25 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 50
+2025-10-19 01:54:25 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 49
+2025-10-19 01:54:25 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 48
+2025-10-19 01:54:25 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 47
+2025-10-19 01:54:25 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:54:25 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:54:25 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:54:25 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:54:25 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:54:56 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:54:56 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:54:56 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 51
+2025-10-19 01:54:56 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 50
+2025-10-19 01:54:56 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 49
+2025-10-19 01:54:56 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 48
+2025-10-19 01:54:56 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 47
+2025-10-19 01:54:56 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:54:56 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:54:56 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:54:56 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:54:56 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:55:27 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:55:27 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:55:27 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 51
+2025-10-19 01:55:27 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 50
+2025-10-19 01:55:27 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 49
+2025-10-19 01:55:27 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 48
+2025-10-19 01:55:27 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 47
+2025-10-19 01:55:27 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:55:27 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:55:27 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:55:27 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:55:27 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:55:57 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:55:57 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:55:59 [DEBUG] 📥 Đã tải ảnh 52 → downloads/3117955083\52.jpg
+2025-10-19 01:56:03 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\52.jpg
+2025-10-19 01:56:04 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 51
+2025-10-19 01:56:04 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 50
+2025-10-19 01:56:04 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 49
+2025-10-19 01:56:04 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 48
+2025-10-19 01:56:04 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:56:04 [INFO] [Channel 3117955083] 💾 Committed 1 new posts.
+2025-10-19 01:56:04 [INFO] [Channel 3117955083] 📝 Committed 1 new messages.
+2025-10-19 01:56:04 [INFO] 🖼️ Sent photo → -1002925426333 | ID: 179
+2025-10-19 01:56:04 [INFO] [Channel 3117955083] ✅ Completed: 1 new messages saved.
+2025-10-19 01:56:04 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:56:35 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:56:35 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:56:35 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 52
+2025-10-19 01:56:35 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 51
+2025-10-19 01:56:35 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 50
+2025-10-19 01:56:35 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 49
+2025-10-19 01:56:35 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 48
+2025-10-19 01:56:35 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:56:35 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:56:35 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:56:35 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:56:35 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:57:06 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:57:06 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:57:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 52
+2025-10-19 01:57:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 51
+2025-10-19 01:57:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 50
+2025-10-19 01:57:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 49
+2025-10-19 01:57:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 48
+2025-10-19 01:57:06 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:57:06 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:57:06 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:57:06 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:57:06 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:58:07 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:58:07 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:58:07 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:58:07 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:58:07 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:58:07 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:58:38 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:58:38 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:58:40 [INFO] [Channel 3117955083] 💾 Committed 5 new posts.
+2025-10-19 01:58:40 [INFO] [Channel 3117955083] 📝 Committed 5 new messages.
+2025-10-19 01:58:40 [INFO] 💬 Sent text → -1002925426333 | ID: 186
+2025-10-19 01:58:41 [INFO] 💬 Sent text → -1002925426333 | ID: 187
+2025-10-19 01:58:41 [INFO] 💬 Sent text → -1002925426333 | ID: 188
+2025-10-19 01:58:41 [INFO] 💬 Sent text → -1002925426333 | ID: 189
+2025-10-19 01:58:41 [INFO] 💬 Sent text → -1002925426333 | ID: 190
+2025-10-19 01:58:41 [INFO] [Channel 3117955083] ✅ Completed: 5 new messages saved.
+2025-10-19 01:58:42 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:59:12 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:59:12 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:59:12 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 57
+2025-10-19 01:59:12 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 56
+2025-10-19 01:59:12 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 55
+2025-10-19 01:59:12 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 54
+2025-10-19 01:59:12 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 53
+2025-10-19 01:59:12 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 01:59:12 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 01:59:12 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 01:59:12 [INFO] 🛑 Telegram client disconnected
+2025-10-19 01:59:43 [INFO] ✅ Telegram client started successfully
+2025-10-19 01:59:43 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 01:59:44 [DEBUG] 📥 Đã tải ảnh 59 → downloads/3117955083\59.jpg
+2025-10-19 01:59:48 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\59.jpg
+2025-10-19 01:59:49 [DEBUG] 📥 Đã tải ảnh 58 → downloads/3117955083\58.jpg
+2025-10-19 01:59:53 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\58.jpg
+2025-10-19 01:59:55 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 57
+2025-10-19 01:59:55 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 56
+2025-10-19 01:59:55 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 55
+2025-10-19 01:59:55 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 54
+2025-10-19 01:59:55 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 01:59:55 [INFO] [Channel 3117955083] 💾 Committed 1 new posts.
+2025-10-19 01:59:55 [INFO] [Channel 3117955083] 📝 Committed 2 new messages.
+2025-10-19 01:59:56 [INFO] 📸 Sent album (2 ảnh) → -1002925426333 | IDs: [191, 192]
+2025-10-19 01:59:56 [INFO] [Channel 3117955083] ✅ Completed: 2 new messages saved.
+2025-10-19 01:59:56 [INFO] 🛑 Telegram client disconnected
+2025-10-19 02:00:27 [INFO] ✅ Telegram client started successfully
+2025-10-19 02:00:27 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 02:00:27 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 59
+2025-10-19 02:00:27 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 57
+2025-10-19 02:00:27 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 56
+2025-10-19 02:00:27 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 55
+2025-10-19 02:00:27 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 54
+2025-10-19 02:00:27 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 02:00:27 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 02:00:27 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 02:00:27 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 02:00:27 [INFO] 🛑 Telegram client disconnected
+2025-10-19 02:00:57 [INFO] ✅ Telegram client started successfully
+2025-10-19 02:00:57 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 02:00:59 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 59
+2025-10-19 02:00:59 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 57
+2025-10-19 02:00:59 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 56
+2025-10-19 02:00:59 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 02:00:59 [INFO] [Channel 3117955083] 💾 Committed 2 new posts.
+2025-10-19 02:00:59 [INFO] [Channel 3117955083] 📝 Committed 2 new messages.
+2025-10-19 02:01:00 [INFO] 💬 Sent text → -1002925426333 | ID: 193
+2025-10-19 02:01:00 [INFO] 💬 Sent text → -1002925426333 | ID: 194
+2025-10-19 02:01:00 [INFO] [Channel 3117955083] ✅ Completed: 2 new messages saved.
+2025-10-19 02:01:00 [INFO] 🛑 Telegram client disconnected
+2025-10-19 02:01:31 [INFO] ✅ Telegram client started successfully
+2025-10-19 02:01:31 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 02:01:31 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 61
+2025-10-19 02:01:31 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 60
+2025-10-19 02:01:31 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 59
+2025-10-19 02:01:31 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 57
+2025-10-19 02:01:31 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 56
+2025-10-19 02:01:31 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 02:01:31 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 02:01:31 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 02:01:31 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 02:01:31 [INFO] 🛑 Telegram client disconnected
+2025-10-19 02:02:01 [INFO] ✅ Telegram client started successfully
+2025-10-19 02:02:01 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 02:02:02 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 61
+2025-10-19 02:02:02 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 60
+2025-10-19 02:02:02 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 59
+2025-10-19 02:02:02 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 57
+2025-10-19 02:02:02 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 56
+2025-10-19 02:02:02 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 02:02:02 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 02:02:02 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 02:02:02 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 02:02:02 [INFO] 🛑 Telegram client disconnected
+2025-10-19 02:02:32 [INFO] ✅ Telegram client started successfully
+2025-10-19 02:02:32 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 02:02:32 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 61
+2025-10-19 02:02:32 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 60
+2025-10-19 02:02:32 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 59
+2025-10-19 02:02:32 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 57
+2025-10-19 02:02:32 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 56
+2025-10-19 02:02:32 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 02:02:32 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 02:02:32 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 02:02:32 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 02:02:32 [INFO] 🛑 Telegram client disconnected
+2025-10-19 02:03:03 [INFO] ✅ Telegram client started successfully
+2025-10-19 02:03:03 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 02:03:03 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 61
+2025-10-19 02:03:03 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 60
+2025-10-19 02:03:03 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 59
+2025-10-19 02:03:03 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 57
+2025-10-19 02:03:03 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 56
+2025-10-19 02:03:03 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 02:03:03 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 02:03:03 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 02:03:03 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 02:03:03 [INFO] 🛑 Telegram client disconnected
+2025-10-19 02:03:34 [INFO] ✅ Telegram client started successfully
+2025-10-19 02:03:34 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 02:03:34 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 61
+2025-10-19 02:03:34 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 60
+2025-10-19 02:03:34 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 59
+2025-10-19 02:03:34 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 57
+2025-10-19 02:03:34 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 56
+2025-10-19 02:03:34 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 02:03:34 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 02:03:34 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 02:03:34 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 02:03:34 [INFO] 🛑 Telegram client disconnected
+2025-10-19 02:04:04 [INFO] ✅ Telegram client started successfully
+2025-10-19 02:04:04 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 02:04:04 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 61
+2025-10-19 02:04:04 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 60
+2025-10-19 02:04:04 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 59
+2025-10-19 02:04:04 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 57
+2025-10-19 02:04:04 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 56
+2025-10-19 02:04:04 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 02:04:04 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 02:04:04 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 02:04:04 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 02:04:05 [INFO] 🛑 Telegram client disconnected
+2025-10-19 02:04:35 [INFO] ✅ Telegram client started successfully
+2025-10-19 02:04:35 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 02:04:35 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 61
+2025-10-19 02:04:35 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 60
+2025-10-19 02:04:35 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 59
+2025-10-19 02:04:35 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 57
+2025-10-19 02:04:35 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 56
+2025-10-19 02:04:35 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 02:04:35 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 02:04:35 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 02:04:35 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 02:04:35 [INFO] 🛑 Telegram client disconnected
+2025-10-19 02:05:06 [INFO] ✅ Telegram client started successfully
+2025-10-19 02:05:06 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-19 02:05:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 61
+2025-10-19 02:05:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 60
+2025-10-19 02:05:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 59
+2025-10-19 02:05:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 57
+2025-10-19 02:05:06 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 56
+2025-10-19 02:05:06 [INFO] [Channel 3117955083] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-19 02:05:06 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-19 02:05:06 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-19 02:05:06 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-19 02:05:06 [INFO] 🛑 Telegram client disconnected

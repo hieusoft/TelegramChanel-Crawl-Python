@@ -1,1 +1,0 @@
-# Đăng lại bài viết lên channel đích, xử lý reply
