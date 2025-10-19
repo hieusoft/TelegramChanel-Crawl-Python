@@ -2,7 +2,8 @@
   "telegram": {
     "api_id": 28288961,
     "api_hash": "616b006a2ba5538ad6ec731844ebc05a",
-    "session_file": "my_session.session"
+    "session_fetch": "session_fetch.session",
+    "session_send": "session_send.session"
   },
   "mysql": {
     "host": "localhost",
@@ -21,9 +22,11 @@
     "enabled": true,
     "target_language": "en"
   },
+   "openai": {
+    "api_key": "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",
+    "base_url": "https://openrouter.ai/api/v1"
+  },
   "scheduler": {
-    "check_messages_interval_sec": 30,
-    "process_media_interval_sec": 10,
     "interval": 30
   },
   "logging": {

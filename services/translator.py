@@ -1,34 +1,46 @@
-from googletrans import Translator as GoogleTranslator
 from config.config import Config  
+from openai import OpenAI
+
 
 class Translator:
-    def __init__(self, target_lang=None):
-        self.translator = GoogleTranslator()
+    def __init__(self):
         config = Config()
-        self.target_lang = target_lang or config.get("translator.target_lang", "en")
+        self.target_lang = config.get("translator.target_lang", "en")
+        api_key = config.get("openai.api_key")
+        base_url = config.get("openai.base_url", "https://openrouter.ai/api/v1")
 
-    def translate(self, text):
-        try:
-            if not text:
-                return ""
+        self.client = OpenAI(base_url=base_url, api_key=api_key)
 
-            lines = text.split('\n')
-            translated_lines = []
+    def translate_text(self, text, target_language=None):
+        target_language = target_language or self.target_lang
 
-            for line in lines:
-                if not line.strip():
-                    translated_lines.append("")  # Giữ dòng trống
-                    continue
+        response = self.client.chat.completions.create(
+            model="deepseek/deepseek-chat-v3.1:free",
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        f"You are a professional translator. "
+                        f"Translate everything into {target_language}. "
+                        "Keep emojis, punctuation, newlines, and spacing exactly as in the original text. "
+                        "Do NOT modify or remove any symbols, markdown, or formatting."
+                    ),
+                },
+                {"role": "user", "content": text},
+            ],
+        )
 
-                try:
-                    translated_text = self.translator.translate(line, dest=self.target_lang).text
-                    translated_lines.append(str(translated_text or ""))  # Ép chuỗi, tránh None
-                except Exception as inner_e:
-                    print(f"[Translator Error - line skipped] {inner_e}")
-                    translated_lines.append(line)  # Giữ nguyên dòng nếu dịch lỗi
+        result = response.choices[0].message.content.strip()
 
-            return "\n".join(translated_lines)
+        bad_tokens = [
+            "<｜begin▁of▁sentence｜>",
+            "<｜end▁of▁sentence｜>",
+            "<|begin_of_sentence|>",
+            "<|end_of_sentence|>",
+        ]
+        for token in bad_tokens:
+            result = result.replace(token, "")
 
-        except Exception as e:
-            print(f"[Translator Error] {e}")
-            return text
+        return result.strip()
+
+

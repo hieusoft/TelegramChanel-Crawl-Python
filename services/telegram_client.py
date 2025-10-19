@@ -12,46 +12,70 @@ from services.media_processor import ProcessImage
 from telethon.errors import RPCError
 
 class TelegramClientWrapper:
-    _client = None
+    _fetch_client = None
+    _send_client = None
     _is_connected = False
     _instance = None
 
-    def __new__(cls, api_id, api_hash, session_file):
-        if cls._instance is None:
-            cls._instance = super().__new__(cls)
-        return cls._instance
+    def __new__(cls, api_id, api_hash, session_fetch, session_send):
+            if cls._instance is None:
+                cls._instance = super().__new__(cls)
+            return cls._instance
 
-    def __init__(self, api_id: int, api_hash: str, session_file: str):
+    def __init__(self, api_id: int, api_hash: str, session_fetch: str, session_send: str):
+        
         if not hasattr(self, "initialized"):
             self.api_id = api_id
             self.api_hash = api_hash
-            self.session_file = session_file
+            self.session_fetch = session_fetch
+            self.session_send = session_send
+
             self.translator = Translator()
             self.processimage = ProcessImage()
-            TelegramClientWrapper._client = TelegramClient(session_file, api_id, api_hash)
+
+       
+            TelegramClientWrapper._fetch_client = TelegramClient(session_fetch, api_id, api_hash)
+
+          
+            TelegramClientWrapper._send_client = TelegramClient(session_send, api_id, api_hash)
+
             self.initialized = True
 
-    async def start(self):
+    async def start_all(self):
+        """Khởi động cả 2 account"""
         if not TelegramClientWrapper._is_connected:
-            await TelegramClientWrapper._client.start()
+            await TelegramClientWrapper._fetch_client.start()
+            await TelegramClientWrapper._send_client.start()
             TelegramClientWrapper._is_connected = True
-            Logger.info("✅ Telegram client started successfully")
+            Logger.info("✅ Telegram clients (fetch & send) started successfully")
 
-    async def disconnect(self):
+    async def disconnect_all(self):
+        """Ngắt kết nối cả 2 account"""
         if TelegramClientWrapper._is_connected:
-            await TelegramClientWrapper._client.disconnect()
+            await TelegramClientWrapper._fetch_client.disconnect()
+            await TelegramClientWrapper._send_client.disconnect()
             TelegramClientWrapper._is_connected = False
-            Logger.info("🛑 Telegram client disconnected")
+            Logger.info("🛑 Telegram clients disconnected")
+
+    @property
+    def fetch_client(self):
+        """Account dùng để lấy tin nhắn"""
+        return TelegramClientWrapper._fetch_client
+
+    @property
+    def send_client(self):
+        """Account dùng để gửi tin nhắn"""
+        return TelegramClientWrapper._send_client
 
     async def get_entity(self, channel_id_or_username):
         try:
-            return await TelegramClientWrapper._client.get_entity(channel_id_or_username)
+            return await TelegramClientWrapper._fetch_client.get_entity(channel_id_or_username)
         except Exception as e:
             Logger.error(f"❌ Failed to get entity for {channel_id_or_username}: {e}")
             return None
     async def get_messages(self, entity, limit: int = 10):
         try:
-            messages = await TelegramClientWrapper._client.get_messages(entity, limit=limit)
+            messages = await TelegramClientWrapper._fetch_client.get_messages(entity, limit=limit)
             return messages if messages else []
         except Exception as e:
             Logger.error(f"❌ Failed to get messages from {entity}: {e}")
@@ -97,7 +121,7 @@ class TelegramClientWrapper:
                 file_name = custom_name or f"{message.id}.jpg"
                 file_path = os.path.join(download_dir, file_name)
 
-                await TelegramClientWrapper._client.download_media(message, file=file_path)
+                await TelegramClientWrapper._fetch_client.download_media(message, file=file_path)
 
                 Logger.debug(f"📥 Đã tải ảnh {message.id} → {file_path}")
                 return file_path
@@ -111,7 +135,7 @@ class TelegramClientWrapper:
             if not TelegramClientWrapper._is_connected:
                 await self.start()
 
-            entity = await TelegramClientWrapper._client.get_entity(target_channel)
+            entity = await TelegramClientWrapper._send_client.get_entity(target_channel)
             if not entity:
                 Logger.error(f"❌ Không tìm thấy kênh: {target_channel}")
                 return None
@@ -134,7 +158,7 @@ class TelegramClientWrapper:
                 files_to_send = [m.processed_file_path or m.original_file_path for m in photos if os.path.exists(m.processed_file_path or m.original_file_path)]
                 if files_to_send:
                     caption = photos[0].translated_text or photos[0].original_text or ""
-                    sent_messages = await TelegramClientWrapper._client.send_file(
+                    sent_messages = await TelegramClientWrapper._send_client.send_file(
                         entity,
                         file=files_to_send,
                         caption=caption,
@@ -153,7 +177,7 @@ class TelegramClientWrapper:
                 m = photos[0]
                 file_path = m.processed_file_path or m.original_file_path
                 if file_path and os.path.exists(file_path):
-                    sent = await TelegramClientWrapper._client.send_file(
+                    sent = await TelegramClientWrapper._send_client.send_file(
                         entity,
                         file=file_path,
                         caption=m.translated_text or m.original_text or "",
@@ -169,7 +193,7 @@ class TelegramClientWrapper:
             for m in texts:
                 text = m.translated_text or m.original_text
                 if text:
-                    sent = await TelegramClientWrapper._client.send_message(entity, text, reply_to=reply_to_id )
+                    sent = await TelegramClientWrapper._send_client.send_message(entity, text, reply_to=reply_to_id )
                     sent_ids.append(sent.id)
                     Logger.info(f"💬 Sent text → {target_channel} | ID: {sent.id}")
                     m.target_telegram_message_id = sent.id
@@ -269,9 +293,9 @@ class TelegramClientWrapper:
                 )
                 posts_messages_map[post] = []
 
-                # Text message
+             
                 text = msg.text.strip() if getattr(msg, "text", None) else None
-                translated = self.translator.translate(text) if text else None
+                translated = self.translator.translate_text(text) if text else None
 
                 if not getattr(msg, "media", None):
                     message_obj = Messages(
@@ -309,7 +333,7 @@ class TelegramClientWrapper:
                             target_telegram_message_id=None,
                             media_type="photo",
                             original_text=(media_msg.text.strip() if getattr(media_msg, "text", None) else text),
-                            translated_text=(self.translator.translate(media_msg.text.strip()) if getattr(media_msg, "text", None) else translated),
+                            translated_text=(self.translator.translate_text(media_msg.text.strip()) if getattr(media_msg, "text", None) else translated),
                             original_file_path=file_path,
                             processed_file_path=file_process_path
                         )
@@ -336,8 +360,8 @@ class TelegramClientWrapper:
             connection.commit()
             Logger.info(f"[Channel {channel.channel_id}] 📝 Committed {saved_count} new messages.")
 
-            # --- Gửi message ---
-            for post in sorted_posts:  # gửi từ mới → cũ
+         
+            for post in sorted_posts:  
                 raw = str(channel.target_channel_id)
                 
                 if raw.startswith("-100"):

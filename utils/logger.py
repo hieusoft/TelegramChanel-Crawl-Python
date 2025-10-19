@@ -23,7 +23,7 @@ class Logger:
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         prefix = Logger.LEVELS.get(level.upper(), "[INFO]")
         formatted = f"{now} {prefix} {message}"
-        # print(formatted)           # in ra console
+        print(formatted)           # in ra console
         Logger._write_file(formatted)  # lưu vào file
 
     @staticmethod

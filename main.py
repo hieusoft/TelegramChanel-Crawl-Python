@@ -12,15 +12,9 @@ from models.channel import Channel
 from db.mysql import connection, get_cursor
 from utils.logger import Logger
 from config.config import Config
-
 console = Console()
-
-
 def clear_console():
-  
     os.system('cls' if os.name == 'nt' else 'clear')
-
-
 class BotServiceManager:
     def __init__(self, db_conn, telegram_client: TelegramClientWrapper):
         self.db_conn = db_conn
@@ -43,6 +37,7 @@ class BotServiceManager:
                 "status": f"❌ {str(e)[:25]}",
                 "duration": f"{duration}s"
             }
+
     async def run_all_channels(self):
         cursor = get_cursor()
         channels = Channel.list_channels(cursor, status="active")
@@ -50,9 +45,13 @@ class BotServiceManager:
         if not channels:
             console.print("[yellow]⚠️  Không tìm thấy channel nào đang hoạt động.[/yellow]")
             return []
-        await self.telegram_client.start()
+        await self.telegram_client.start_all()
+
         results = await asyncio.gather(*(self.process_channel(ch) for ch in channels))
-        await self.telegram_client.disconnect()
+
+       
+        await self.telegram_client.disconnect_all()
+
         scan_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         for r in results:
             r["time"] = scan_time
@@ -61,7 +60,6 @@ class BotServiceManager:
 
 
 def show_results_table(results, scan_time):
-
     clear_console()
 
     console.print(
@@ -72,16 +70,19 @@ def show_results_table(results, scan_time):
         )
     )
     console.print(f"⏳ [bold yellow]Bắt đầu vòng quét mới:[/bold yellow] {scan_time}\n")
+
     table = Table(
         title="📊 [bold cyan]Kết quả xử lý kênh Telegram[/bold cyan]",
         box=box.SQUARE_DOUBLE_HEAD,
         header_style="bold magenta",
         title_style="bold blue",
     )
+
     table.add_column("Channel ID", justify="center", style="bold cyan")
     table.add_column("Trạng thái", justify="center")
     table.add_column("Thời gian xử lý", justify="center", style="yellow")
     table.add_column("Thời gian quét", justify="center", style="bold white")
+
     for r in results:
         color = "green" if "✅" in r["status"] else "red"
         table.add_row(
@@ -93,25 +94,23 @@ def show_results_table(results, scan_time):
 
     console.print(table)
     console.print("\n")
-
-
 async def main():
     config = Config()
     API_ID = config.get("telegram.api_id", 28288961)
     API_HASH = config.get("telegram.api_hash", "616b006a2ba5538ad6ec731844ebc05a")
-    SESSION_FILE = config.get("telegram.session_file", "my_session")
+    SESSION_FETCH = config.get("telegram.session_fetch", "session_fetch")
+
+    SESSION_SEND = config.get("telegram.session_send", "session_send")
+
     INTERVAL_SECONDS = config.get("scheduler.interval", 60)
 
-    telegram_client = TelegramClientWrapper(API_ID, API_HASH, SESSION_FILE)
+    telegram_client = TelegramClientWrapper(API_ID, API_HASH, SESSION_FETCH, SESSION_SEND)
     manager = BotServiceManager(connection, telegram_client)
 
     try:
         while True:
             await manager.run_all_channels()
-
-            console.print(
-                f"[dim]⏰ Đợi {INTERVAL_SECONDS} giây trước vòng quét tiếp theo...[/dim]"
-            )
+            console.print(f"[dim]⏰ Đợi {INTERVAL_SECONDS} giây trước vòng quét tiếp theo...[/dim]")
             await asyncio.sleep(INTERVAL_SECONDS)
 
     except KeyboardInterrupt:
@@ -124,6 +123,7 @@ async def main():
             console.print("[green]🛑 Đóng kết nối MySQL thành công.[/green]")
         except Exception as e:
             console.print(f"[red]❌ Lỗi khi đóng kết nối MySQL: {e}[/red]")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
