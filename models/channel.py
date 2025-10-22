@@ -2,13 +2,16 @@ class Channel:
     TABLE_NAME = "channels"
 
     def __init__(self, id=None, channel_id=None, target_channel_id=None,
-                 old_watermark="", new_watermark="", apply_watermark=True,
-                 status="active", created_at=None, updated_at=None):
+                 old_watermark="", new_watermark="", old_caption="", new_caption="",
+                 apply_watermark=True, status="active",
+                 created_at=None, updated_at=None):
         self.id = id
         self.channel_id = channel_id
         self.target_channel_id = target_channel_id
         self.old_watermark = old_watermark
         self.new_watermark = new_watermark
+        self.old_caption = old_caption
+        self.new_caption = new_caption
         self.apply_watermark = apply_watermark
         self.status = status
         self.created_at = created_at
@@ -16,10 +19,13 @@ class Channel:
 
     def create(self, cursor):
         sql = f"""INSERT INTO {self.TABLE_NAME} 
-                 (channel_id, target_channel_id, old_watermark, new_watermark, apply_watermark, status)
-                 VALUES (%s,%s,%s,%s,%s,%s)"""
-        cursor.execute(sql, (self.channel_id, self.target_channel_id, self.old_watermark,
-                             self.new_watermark, int(self.apply_watermark), self.status))
+                 (channel_id, target_channel_id, old_watermark, new_watermark, 
+                  old_caption, new_caption, apply_watermark, status)
+                 VALUES (%s,%s,%s,%s,%s,%s,%s,%s)"""
+        cursor.execute(sql, (self.channel_id, self.target_channel_id,
+                             self.old_watermark, self.new_watermark,
+                             self.old_caption, self.new_caption,
+                             int(self.apply_watermark), self.status))
         self.id = cursor.lastrowid
 
     @classmethod
@@ -35,11 +41,16 @@ class Channel:
         if not self.channel_id:
             raise ValueError("channel_id is required for update")
         sql = f"""UPDATE {self.TABLE_NAME} SET 
-                target_channel_id=%s, old_watermark=%s, new_watermark=%s,
+                target_channel_id=%s, 
+                old_watermark=%s, new_watermark=%s,
+                old_caption=%s, new_caption=%s,
                 apply_watermark=%s, status=%s
                 WHERE channel_id=%s"""
-        cursor.execute(sql, (self.target_channel_id, self.old_watermark, self.new_watermark,
-                            int(self.apply_watermark), self.status, self.channel_id))
+        cursor.execute(sql, (self.target_channel_id,
+                             self.old_watermark, self.new_watermark,
+                             self.old_caption, self.new_caption,
+                             int(self.apply_watermark), self.status,
+                             self.channel_id))
 
     def delete_by_channel_id(self, cursor):
         if not self.channel_id:

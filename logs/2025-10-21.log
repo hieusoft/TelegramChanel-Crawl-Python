@@ -1,0 +1,648 @@
+2025-10-21 00:28:16 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 00:28:16 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 00:28:16 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-21 00:28:16 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-21 00:28:16 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-21 00:28:17 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 00:28:47 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 00:28:47 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 00:28:48 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-21 00:28:48 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-21 00:28:48 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-21 00:28:48 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 00:43:36 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 00:43:36 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 00:43:37 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 00:43:37 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:07:21 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:07:21 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:07:23 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:07:23 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:07:44 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:07:44 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:07:45 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:07:45 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:09:14 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:09:14 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:09:15 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:09:15 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:09:46 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:09:46 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:09:47 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:09:48 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:10:18 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:10:18 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:10:30 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:10:30 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:10:31 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:10:31 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:11:46 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:11:46 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:11:47 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:11:48 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:12:18 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:12:18 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:12:19 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:12:20 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:12:50 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:12:50 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:12:51 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:12:52 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:13:22 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:13:22 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:13:24 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:13:24 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:17:13 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:17:13 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:17:14 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:17:14 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:19:01 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:19:01 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:19:03 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:19:03 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:20:24 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:20:24 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:20:26 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:20:26 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:21:18 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:21:18 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:21:18 [ERROR] ❌ Failed to get entity for -1003117955083: 'TelegramClientWrapper' object has no attribute 'client_fetch'
+2025-10-21 01:21:18 [DEBUG] [Channel 3117955083] ❌ Entity not found — skipping.
+2025-10-21 01:21:18 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:22:06 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:22:06 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:22:06 [INFO] ✅ Entity resolved successfully: -1003117955083
+2025-10-21 01:22:08 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:22:08 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:22:39 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:22:39 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:22:39 [INFO] ✅ Entity resolved successfully: -1003117955083
+2025-10-21 01:22:40 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:22:40 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:28:41 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:28:41 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:28:41 [INFO] ✅ Entity resolved successfully: -1003117955083
+2025-10-21 01:28:43 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:28:43 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:29:13 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:29:13 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:29:13 [INFO] ✅ Entity resolved successfully: -1003117955083
+2025-10-21 01:29:14 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:29:14 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:29:41 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:29:42 [INFO] ✅ Entity resolved successfully: -1003117955083
+2025-10-21 01:31:19 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:31:19 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:31:19 [INFO] ✅ Entity resolved successfully: -1003117955083
+2025-10-21 01:31:21 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:31:21 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:35:22 [INFO] ✅ Telegram fetch client started successfully
+2025-10-21 01:35:22 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:35:22 [ERROR] ❌ Failed to get entity for -1003117955083: Could not find the input entity for PeerChannel(channel_id=3117955083) (PeerChannel). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details.
+2025-10-21 01:35:22 [DEBUG] [Channel 3117955083] ❌ Entity not found — skipping.
+2025-10-21 01:35:48 [INFO] ✅ Telegram fetch client started successfully
+2025-10-21 01:35:48 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:35:48 [INFO] ✅ Entity resolved successfully: -1003117955083
+2025-10-21 01:35:50 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:36:53 [INFO] ✅ Telegram fetch client started successfully
+2025-10-21 01:36:53 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:36:53 [INFO] ✅ Entity resolved successfully: -1003117955083
+2025-10-21 01:36:55 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:39:14 [INFO] ✅ Telegram fetch client started successfully
+2025-10-21 01:39:14 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:39:14 [INFO] ✅ Entity resolved successfully: -1003117955083
+2025-10-21 01:39:15 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:41:04 [INFO] ✅ Telegram fetch client started successfully
+2025-10-21 01:41:04 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:41:04 [INFO] ✅ Entity resolved successfully: -1003117955083
+2025-10-21 01:41:06 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:41:42 [INFO] ✅ Telegram fetch client started successfully
+2025-10-21 01:41:42 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:41:43 [INFO] ✅ Entity resolved successfully: -1003117955083
+2025-10-21 01:41:44 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:42:39 [INFO] ✅ Telegram fetch client started successfully
+2025-10-21 01:42:39 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:42:39 [INFO] ✅ Entity resolved successfully: -1003117955083
+2025-10-21 01:42:40 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:43:29 [INFO] ✅ Telegram fetch client started successfully
+2025-10-21 01:43:29 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:43:29 [INFO] ✅ Entity resolved successfully: -1003117955083
+2025-10-21 01:43:30 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:44:06 [INFO] ✅ Telegram fetch client started successfully
+2025-10-21 01:44:06 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:44:06 [INFO] ✅ Entity resolved successfully: -1003117955083
+2025-10-21 01:44:07 [DEBUG] 📥 Đã tải ảnh 78 → downloads/3117955083\78.jpg
+2025-10-21 01:44:11 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\78.jpg
+2025-10-21 01:44:11 [DEBUG] 📥 Đã tải ảnh 77 → downloads/3117955083\77.jpg
+2025-10-21 01:44:16 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\77.jpg
+2025-10-21 01:44:17 [ERROR] [Channel 3117955083] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 01:45:05 [INFO] ✅ Telegram fetch client started successfully
+2025-10-21 01:45:05 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:45:05 [INFO] ✅ Entity resolved successfully: -1003117955083
+2025-10-21 01:45:06 [DEBUG] 📥 Đã tải ảnh 78 → downloads/3117955083\78.jpg
+2025-10-21 01:45:10 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\78.jpg
+2025-10-21 01:45:11 [DEBUG] 📥 Đã tải ảnh 77 → downloads/3117955083\77.jpg
+2025-10-21 01:45:15 [INFO] 🖼️ Ảnh đã xử lý xong: processed/3117955083\77.jpg
+2025-10-21 01:45:15 [INFO] [Channel 3117955083] 💾 Committed 1 new posts.
+2025-10-21 01:45:15 [INFO] [Channel 3117955083] 📝 Committed 2 new messages.
+2025-10-21 01:45:57 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:45:57 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:45:57 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 78
+2025-10-21 01:45:57 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-21 01:45:57 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-21 01:45:57 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-21 01:45:57 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 01:46:28 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 01:46:28 [INFO] 🔍 Fetching messages from channel 3117955083 (limit=10)
+2025-10-21 01:46:28 [DEBUG] [Channel 3117955083] 🔁 Skipping existing message ID 78
+2025-10-21 01:46:28 [INFO] [Channel 3117955083] 💾 Committed 0 new posts.
+2025-10-21 01:46:28 [INFO] [Channel 3117955083] 📝 Committed 0 new messages.
+2025-10-21 01:46:28 [INFO] [Channel 3117955083] ✅ Completed: 0 new messages saved.
+2025-10-21 01:46:28 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 14:54:14 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 14:54:14 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 14:54:16 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 14:54:16 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 14:54:47 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 14:54:47 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 14:54:48 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 14:54:48 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 14:55:19 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 14:55:19 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 14:55:20 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 14:55:20 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 14:55:51 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 14:55:51 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 14:55:52 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 14:55:52 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 14:56:23 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 14:56:23 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 14:56:24 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 14:56:24 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 14:56:55 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 14:56:55 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 14:56:56 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 14:56:56 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 14:57:27 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 14:57:27 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 14:57:28 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 14:57:28 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 14:57:59 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 14:57:59 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 14:58:00 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 14:58:00 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 14:58:31 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 14:58:31 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 14:58:33 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 14:58:33 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 14:59:04 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 14:59:04 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 14:59:05 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 14:59:05 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 14:59:36 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 14:59:36 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 14:59:37 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 14:59:37 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:00:08 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:00:08 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:00:09 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:00:09 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:00:40 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:00:40 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:00:41 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:00:41 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:01:12 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:01:12 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:01:13 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:01:13 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:01:44 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:01:44 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:01:45 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:01:45 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:02:16 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:02:16 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:02:17 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:02:17 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:02:48 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:02:48 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:02:49 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:02:49 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:03:20 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:03:20 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:03:22 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:03:22 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:24:30 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:24:30 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:24:31 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:24:31 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:26:32 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:26:32 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:26:34 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:26:34 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:27:30 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:27:30 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:27:32 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:27:32 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:28:03 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:28:03 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:28:04 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:28:04 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:29:12 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:29:12 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:29:14 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:29:14 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:29:45 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:29:45 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:29:46 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:29:46 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:34:34 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:34:34 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:35:18 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:35:18 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:35:18 [DEBUG] [Channel 2100098740] Using formatted ID: -1002100098740
+2025-10-21 15:35:18 [ERROR] ❌ Failed to get entity for -1002100098740: Cannot find any entity corresponding to "-1002100098740"
+2025-10-21 15:35:18 [ERROR] [Channel 2100098740] ❌ Entity not found — skipping.
+2025-10-21 15:35:18 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:35:49 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:35:49 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:35:49 [DEBUG] [Channel 2100098740] Using formatted ID: -1002100098740
+2025-10-21 15:35:49 [ERROR] ❌ Failed to get entity for -1002100098740: Cannot find any entity corresponding to "-1002100098740"
+2025-10-21 15:35:49 [ERROR] [Channel 2100098740] ❌ Entity not found — skipping.
+2025-10-21 15:35:49 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:36:20 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:36:20 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:36:20 [DEBUG] [Channel 2100098740] Using formatted ID: -1002100098740
+2025-10-21 15:36:20 [ERROR] ❌ Failed to get entity for -1002100098740: Cannot find any entity corresponding to "-1002100098740"
+2025-10-21 15:36:20 [ERROR] [Channel 2100098740] ❌ Entity not found — skipping.
+2025-10-21 15:36:20 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:36:51 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:36:51 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:36:51 [DEBUG] [Channel 2100098740] Using formatted ID: -1002100098740
+2025-10-21 15:36:51 [ERROR] ❌ Failed to get entity for -1002100098740: Cannot find any entity corresponding to "-1002100098740"
+2025-10-21 15:36:51 [ERROR] [Channel 2100098740] ❌ Entity not found — skipping.
+2025-10-21 15:36:51 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:38:27 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:38:27 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:38:28 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:38:28 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:40:13 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:40:13 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:40:14 [DEBUG] 📥 Đã tải ảnh 2105 → downloads/2100098740\2105.jpg
+2025-10-21 15:40:19 [INFO] 🖼️ Ảnh đã xử lý xong: processed/2100098740\2105.jpg
+2025-10-21 15:40:20 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:40:20 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:40:51 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:40:51 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:40:51 [DEBUG] 📥 Đã tải ảnh 2105 → downloads/2100098740\2105.jpg
+2025-10-21 15:40:56 [INFO] 🖼️ Ảnh đã xử lý xong: processed/2100098740\2105.jpg
+2025-10-21 15:40:57 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:40:57 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:42:05 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:42:05 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:42:06 [DEBUG] 📥 Đã tải ảnh 2105 → downloads/2100098740\2105.jpg
+2025-10-21 15:42:10 [INFO] 🖼️ Ảnh đã xử lý xong: processed/2100098740\2105.jpg
+2025-10-21 15:42:11 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:42:11 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:42:42 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:42:42 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:42:43 [DEBUG] 📥 Đã tải ảnh 2105 → downloads/2100098740\2105.jpg
+2025-10-21 15:42:48 [INFO] 🖼️ Ảnh đã xử lý xong: processed/2100098740\2105.jpg
+2025-10-21 15:42:49 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:42:49 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:45:20 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:45:20 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:45:21 [DEBUG] 📥 Đã tải ảnh 2105 → downloads/2100098740\2105.jpg
+2025-10-21 15:45:25 [INFO] 🖼️ Ảnh đã xử lý xong: processed/2100098740\2105.jpg
+2025-10-21 15:45:26 [ERROR] [Channel 2100098740] ❗ Error fetching messages: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:45:26 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:48:49 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:48:49 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:48:49 [DEBUG] [DEBUG 1] Getting entity for 2100098740
+2025-10-21 15:48:49 [DEBUG] [DEBUG 1] ✅ Entity obtained: 2100098740
+2025-10-21 15:48:49 [DEBUG] [DEBUG 2] Getting messages from entity (limit=10)
+2025-10-21 15:48:50 [DEBUG] [DEBUG 2] ✅ Got 10 messages
+2025-10-21 15:48:50 [DEBUG] [DEBUG 3] Processing message ID: 2107
+2025-10-21 15:48:50 [DEBUG] [DEBUG 4] Checking if post 2107 exists in DB
+2025-10-21 15:48:50 [DEBUG] [DEBUG 5] Creating Post object for 2107
+2025-10-21 15:48:50 [DEBUG] [DEBUG 6] Processing text-only message 2107
+2025-10-21 15:48:50 [DEBUG] [DEBUG 3] Processing message ID: 2105
+2025-10-21 15:48:50 [DEBUG] [DEBUG 4] Checking if post 2105 exists in DB
+2025-10-21 15:48:50 [DEBUG] [DEBUG 5] Creating Post object for 2105
+2025-10-21 15:48:50 [DEBUG] [DEBUG 7] Downloading photo 2105
+2025-10-21 15:48:50 [DEBUG] 📥 Đã tải ảnh 2105 → downloads/2100098740\2105.jpg
+2025-10-21 15:48:50 [DEBUG] [DEBUG 7] ✅ Downloaded: downloads/2100098740\2105.jpg
+2025-10-21 15:48:50 [DEBUG] [DEBUG 8] Processing photo 2105
+2025-10-21 15:48:54 [INFO] 🖼️ Ảnh đã xử lý xong: processed/2100098740\2105.jpg
+2025-10-21 15:48:54 [DEBUG] [DEBUG 8] ✅ Processed: processed/2100098740\2105.jpg
+2025-10-21 15:48:54 [DEBUG] [DEBUG 9] Creating Messages object for photo 2105
+2025-10-21 15:48:54 [DEBUG] [DEBUG 10] Translating text for message 2105
+2025-10-21 15:48:56 [ERROR] [DEBUG 10] ❌ Translation failed: Error code: 401 - {'error': {'message': 'No auth credentials found', 'code': 401}}
+2025-10-21 15:48:56 [DEBUG] [DEBUG 9] ✅ Messages object created
+2025-10-21 15:48:56 [DEBUG] [DEBUG 3] Processing message ID: 2104
+2025-10-21 15:48:56 [DEBUG] [DEBUG 4] Checking if post 2104 exists in DB
+2025-10-21 15:48:56 [DEBUG] [DEBUG 5] Creating Post object for 2104
+2025-10-21 15:48:56 [DEBUG] [DEBUG 6] Processing text-only message 2104
+2025-10-21 15:48:56 [DEBUG] [DEBUG 3] Processing message ID: 2102
+2025-10-21 15:48:56 [DEBUG] [DEBUG 4] Checking if post 2102 exists in DB
+2025-10-21 15:48:56 [DEBUG] [DEBUG 5] Creating Post object for 2102
+2025-10-21 15:48:56 [DEBUG] [DEBUG 7] Downloading photo 2102
+2025-10-21 15:48:57 [DEBUG] 📥 Đã tải ảnh 2102 → downloads/2100098740\2102.jpg
+2025-10-21 15:48:57 [DEBUG] [DEBUG 7] ✅ Downloaded: downloads/2100098740\2102.jpg
+2025-10-21 15:48:57 [DEBUG] [DEBUG 8] Processing photo 2102
+2025-10-21 15:49:01 [INFO] 🖼️ Ảnh đã xử lý xong: processed/2100098740\2102.jpg
+2025-10-21 15:49:01 [DEBUG] [DEBUG 8] ✅ Processed: processed/2100098740\2102.jpg
+2025-10-21 15:49:01 [DEBUG] [DEBUG 9] Creating Messages object for photo 2102
+2025-10-21 15:49:01 [DEBUG] [DEBUG 10] Translating text for message 2102
+2025-10-21 15:49:01 [ERROR] [DEBUG 10] ❌ Translation failed: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-21 15:49:01 [DEBUG] [DEBUG 9] ✅ Messages object created
+2025-10-21 15:49:01 [DEBUG] [DEBUG 3] Processing message ID: 2101
+2025-10-21 15:49:01 [DEBUG] [DEBUG 4] Checking if post 2101 exists in DB
+2025-10-21 15:49:01 [DEBUG] [DEBUG 5] Creating Post object for 2101
+2025-10-21 15:49:01 [DEBUG] [DEBUG 6] Processing text-only message 2101
+2025-10-21 15:49:01 [DEBUG] [DEBUG 3] Processing message ID: 2100
+2025-10-21 15:49:01 [INFO] [Channel 2100098740] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-21 15:49:01 [DEBUG] [DEBUG 11] Sorting 5 posts
+2025-10-21 15:49:01 [DEBUG] [DEBUG 12] Saving posts to database
+2025-10-21 15:49:01 [DEBUG] [DEBUG 12] Checking parent post 2083
+2025-10-21 15:49:01 [DEBUG] [DEBUG 12] Creating post 2101 in DB
+2025-10-21 15:49:01 [DEBUG] [DEBUG 12] ✅ Post created
+2025-10-21 15:49:01 [DEBUG] [DEBUG 12] Creating post 2102 in DB
+2025-10-21 15:49:01 [DEBUG] [DEBUG 12] ✅ Post created
+2025-10-21 15:49:01 [DEBUG] [DEBUG 12] Creating post 2104 in DB
+2025-10-21 15:49:01 [DEBUG] [DEBUG 12] ✅ Post created
+2025-10-21 15:49:01 [DEBUG] [DEBUG 12] Creating post 2105 in DB
+2025-10-21 15:49:01 [DEBUG] [DEBUG 12] ✅ Post created
+2025-10-21 15:49:01 [DEBUG] [DEBUG 12] Creating post 2107 in DB
+2025-10-21 15:49:01 [DEBUG] [DEBUG 12] ✅ Post created
+2025-10-21 15:49:01 [DEBUG] [DEBUG 13] Committing posts
+2025-10-21 15:49:01 [INFO] [Channel 2100098740] 💾 Committed 5 new posts.
+2025-10-21 15:49:01 [DEBUG] [DEBUG 14] Saving messages to database
+2025-10-21 15:49:01 [DEBUG] [DEBUG 14] Creating message 2101 in DB
+2025-10-21 15:49:01 [DEBUG] [DEBUG 14] ✅ Message created
+2025-10-21 15:49:01 [DEBUG] [DEBUG 14] Creating message 2102 in DB
+2025-10-21 15:49:01 [DEBUG] [DEBUG 14] ✅ Message created
+2025-10-21 15:49:01 [DEBUG] [DEBUG 14] Creating message 2104 in DB
+2025-10-21 15:49:01 [DEBUG] [DEBUG 14] ✅ Message created
+2025-10-21 15:49:01 [DEBUG] [DEBUG 14] Creating message 2105 in DB
+2025-10-21 15:49:01 [DEBUG] [DEBUG 14] ✅ Message created
+2025-10-21 15:49:01 [DEBUG] [DEBUG 14] Creating message 2107 in DB
+2025-10-21 15:49:01 [DEBUG] [DEBUG 14] ✅ Message created
+2025-10-21 15:49:01 [DEBUG] [DEBUG 15] Committing messages
+2025-10-21 15:49:01 [INFO] [Channel 2100098740] 📝 Committed 5 new messages.
+2025-10-21 15:49:01 [INFO] [Channel 2100098740] ✅ Completed: 5 new messages saved.
+2025-10-21 15:49:01 [DEBUG] [DEBUG] Cursor closed
+2025-10-21 15:49:01 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:49:32 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:49:32 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:49:32 [DEBUG] [DEBUG 1] Getting entity for 2100098740
+2025-10-21 15:49:32 [DEBUG] [DEBUG 1] ✅ Entity obtained: 2100098740
+2025-10-21 15:49:32 [DEBUG] [DEBUG 2] Getting messages from entity (limit=10)
+2025-10-21 15:49:33 [DEBUG] [DEBUG 2] ✅ Got 10 messages
+2025-10-21 15:49:33 [DEBUG] [DEBUG 3] Processing message ID: 2107
+2025-10-21 15:49:33 [DEBUG] [DEBUG 4] Checking if post 2107 exists in DB
+2025-10-21 15:49:33 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2107
+2025-10-21 15:49:33 [DEBUG] [DEBUG 3] Processing message ID: 2105
+2025-10-21 15:49:33 [DEBUG] [DEBUG 4] Checking if post 2105 exists in DB
+2025-10-21 15:49:33 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2105
+2025-10-21 15:49:33 [DEBUG] [DEBUG 3] Processing message ID: 2104
+2025-10-21 15:49:33 [DEBUG] [DEBUG 4] Checking if post 2104 exists in DB
+2025-10-21 15:49:33 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2104
+2025-10-21 15:49:33 [DEBUG] [DEBUG 3] Processing message ID: 2102
+2025-10-21 15:49:33 [DEBUG] [DEBUG 4] Checking if post 2102 exists in DB
+2025-10-21 15:49:33 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2102
+2025-10-21 15:49:33 [DEBUG] [DEBUG 3] Processing message ID: 2101
+2025-10-21 15:49:33 [DEBUG] [DEBUG 4] Checking if post 2101 exists in DB
+2025-10-21 15:49:33 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2101
+2025-10-21 15:49:33 [DEBUG] [DEBUG 3] Processing message ID: 2100
+2025-10-21 15:49:33 [INFO] [Channel 2100098740] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-21 15:49:33 [DEBUG] [DEBUG 11] Sorting 0 posts
+2025-10-21 15:49:33 [DEBUG] [DEBUG 12] Saving posts to database
+2025-10-21 15:49:33 [DEBUG] [DEBUG 13] Committing posts
+2025-10-21 15:49:33 [INFO] [Channel 2100098740] 💾 Committed 0 new posts.
+2025-10-21 15:49:33 [DEBUG] [DEBUG 14] Saving messages to database
+2025-10-21 15:49:33 [DEBUG] [DEBUG 15] Committing messages
+2025-10-21 15:49:33 [INFO] [Channel 2100098740] 📝 Committed 0 new messages.
+2025-10-21 15:49:33 [INFO] [Channel 2100098740] ✅ Completed: 0 new messages saved.
+2025-10-21 15:49:33 [DEBUG] [DEBUG] Cursor closed
+2025-10-21 15:49:33 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:50:03 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:50:03 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:50:03 [DEBUG] [DEBUG 1] Getting entity for 2100098740
+2025-10-21 15:50:04 [DEBUG] [DEBUG 1] ✅ Entity obtained: 2100098740
+2025-10-21 15:50:04 [DEBUG] [DEBUG 2] Getting messages from entity (limit=10)
+2025-10-21 15:50:04 [DEBUG] [DEBUG 2] ✅ Got 10 messages
+2025-10-21 15:50:04 [DEBUG] [DEBUG 3] Processing message ID: 2107
+2025-10-21 15:50:04 [DEBUG] [DEBUG 4] Checking if post 2107 exists in DB
+2025-10-21 15:50:04 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2107
+2025-10-21 15:50:04 [DEBUG] [DEBUG 3] Processing message ID: 2105
+2025-10-21 15:50:04 [DEBUG] [DEBUG 4] Checking if post 2105 exists in DB
+2025-10-21 15:50:04 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2105
+2025-10-21 15:50:04 [DEBUG] [DEBUG 3] Processing message ID: 2104
+2025-10-21 15:50:04 [DEBUG] [DEBUG 4] Checking if post 2104 exists in DB
+2025-10-21 15:50:04 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2104
+2025-10-21 15:50:04 [DEBUG] [DEBUG 3] Processing message ID: 2102
+2025-10-21 15:50:04 [DEBUG] [DEBUG 4] Checking if post 2102 exists in DB
+2025-10-21 15:50:04 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2102
+2025-10-21 15:50:04 [DEBUG] [DEBUG 3] Processing message ID: 2101
+2025-10-21 15:50:04 [DEBUG] [DEBUG 4] Checking if post 2101 exists in DB
+2025-10-21 15:50:04 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2101
+2025-10-21 15:50:04 [DEBUG] [DEBUG 3] Processing message ID: 2100
+2025-10-21 15:50:04 [INFO] [Channel 2100098740] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-21 15:50:04 [DEBUG] [DEBUG 11] Sorting 0 posts
+2025-10-21 15:50:04 [DEBUG] [DEBUG 12] Saving posts to database
+2025-10-21 15:50:04 [DEBUG] [DEBUG 13] Committing posts
+2025-10-21 15:50:04 [INFO] [Channel 2100098740] 💾 Committed 0 new posts.
+2025-10-21 15:50:04 [DEBUG] [DEBUG 14] Saving messages to database
+2025-10-21 15:50:04 [DEBUG] [DEBUG 15] Committing messages
+2025-10-21 15:50:04 [INFO] [Channel 2100098740] 📝 Committed 0 new messages.
+2025-10-21 15:50:04 [INFO] [Channel 2100098740] ✅ Completed: 0 new messages saved.
+2025-10-21 15:50:04 [DEBUG] [DEBUG] Cursor closed
+2025-10-21 15:50:04 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:50:35 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:50:35 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:50:35 [DEBUG] [DEBUG 1] Getting entity for 2100098740
+2025-10-21 15:50:35 [DEBUG] [DEBUG 1] ✅ Entity obtained: 2100098740
+2025-10-21 15:50:35 [DEBUG] [DEBUG 2] Getting messages from entity (limit=10)
+2025-10-21 15:50:35 [DEBUG] [DEBUG 2] ✅ Got 10 messages
+2025-10-21 15:50:35 [DEBUG] [DEBUG 3] Processing message ID: 2107
+2025-10-21 15:50:35 [DEBUG] [DEBUG 4] Checking if post 2107 exists in DB
+2025-10-21 15:50:35 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2107
+2025-10-21 15:50:35 [DEBUG] [DEBUG 3] Processing message ID: 2105
+2025-10-21 15:50:35 [DEBUG] [DEBUG 4] Checking if post 2105 exists in DB
+2025-10-21 15:50:35 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2105
+2025-10-21 15:50:35 [DEBUG] [DEBUG 3] Processing message ID: 2104
+2025-10-21 15:50:35 [DEBUG] [DEBUG 4] Checking if post 2104 exists in DB
+2025-10-21 15:50:35 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2104
+2025-10-21 15:50:35 [DEBUG] [DEBUG 3] Processing message ID: 2102
+2025-10-21 15:50:35 [DEBUG] [DEBUG 4] Checking if post 2102 exists in DB
+2025-10-21 15:50:35 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2102
+2025-10-21 15:50:35 [DEBUG] [DEBUG 3] Processing message ID: 2101
+2025-10-21 15:50:35 [DEBUG] [DEBUG 4] Checking if post 2101 exists in DB
+2025-10-21 15:50:35 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2101
+2025-10-21 15:50:35 [DEBUG] [DEBUG 3] Processing message ID: 2100
+2025-10-21 15:50:35 [INFO] [Channel 2100098740] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-21 15:50:35 [DEBUG] [DEBUG 11] Sorting 0 posts
+2025-10-21 15:50:35 [DEBUG] [DEBUG 12] Saving posts to database
+2025-10-21 15:50:35 [DEBUG] [DEBUG 13] Committing posts
+2025-10-21 15:50:35 [INFO] [Channel 2100098740] 💾 Committed 0 new posts.
+2025-10-21 15:50:35 [DEBUG] [DEBUG 14] Saving messages to database
+2025-10-21 15:50:35 [DEBUG] [DEBUG 15] Committing messages
+2025-10-21 15:50:35 [INFO] [Channel 2100098740] 📝 Committed 0 new messages.
+2025-10-21 15:50:35 [INFO] [Channel 2100098740] ✅ Completed: 0 new messages saved.
+2025-10-21 15:50:35 [DEBUG] [DEBUG] Cursor closed
+2025-10-21 15:50:35 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:51:06 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:51:06 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:51:06 [DEBUG] [DEBUG 1] Getting entity for 2100098740
+2025-10-21 15:51:06 [DEBUG] [DEBUG 1] ✅ Entity obtained: 2100098740
+2025-10-21 15:51:06 [DEBUG] [DEBUG 2] Getting messages from entity (limit=10)
+2025-10-21 15:51:06 [DEBUG] [DEBUG 2] ✅ Got 10 messages
+2025-10-21 15:51:06 [DEBUG] [DEBUG 3] Processing message ID: 2107
+2025-10-21 15:51:06 [DEBUG] [DEBUG 4] Checking if post 2107 exists in DB
+2025-10-21 15:51:06 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2107
+2025-10-21 15:51:06 [DEBUG] [DEBUG 3] Processing message ID: 2105
+2025-10-21 15:51:06 [DEBUG] [DEBUG 4] Checking if post 2105 exists in DB
+2025-10-21 15:51:06 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2105
+2025-10-21 15:51:06 [DEBUG] [DEBUG 3] Processing message ID: 2104
+2025-10-21 15:51:06 [DEBUG] [DEBUG 4] Checking if post 2104 exists in DB
+2025-10-21 15:51:06 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2104
+2025-10-21 15:51:06 [DEBUG] [DEBUG 3] Processing message ID: 2102
+2025-10-21 15:51:06 [DEBUG] [DEBUG 4] Checking if post 2102 exists in DB
+2025-10-21 15:51:06 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2102
+2025-10-21 15:51:06 [DEBUG] [DEBUG 3] Processing message ID: 2101
+2025-10-21 15:51:06 [DEBUG] [DEBUG 4] Checking if post 2101 exists in DB
+2025-10-21 15:51:06 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2101
+2025-10-21 15:51:06 [DEBUG] [DEBUG 3] Processing message ID: 2100
+2025-10-21 15:51:06 [INFO] [Channel 2100098740] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-21 15:51:06 [DEBUG] [DEBUG 11] Sorting 0 posts
+2025-10-21 15:51:06 [DEBUG] [DEBUG 12] Saving posts to database
+2025-10-21 15:51:06 [DEBUG] [DEBUG 13] Committing posts
+2025-10-21 15:51:06 [INFO] [Channel 2100098740] 💾 Committed 0 new posts.
+2025-10-21 15:51:06 [DEBUG] [DEBUG 14] Saving messages to database
+2025-10-21 15:51:06 [DEBUG] [DEBUG 15] Committing messages
+2025-10-21 15:51:06 [INFO] [Channel 2100098740] 📝 Committed 0 new messages.
+2025-10-21 15:51:06 [INFO] [Channel 2100098740] ✅ Completed: 0 new messages saved.
+2025-10-21 15:51:06 [DEBUG] [DEBUG] Cursor closed
+2025-10-21 15:51:06 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:51:37 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:51:37 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:51:37 [DEBUG] [DEBUG 1] Getting entity for 2100098740
+2025-10-21 15:51:37 [DEBUG] [DEBUG 1] ✅ Entity obtained: 2100098740
+2025-10-21 15:51:37 [DEBUG] [DEBUG 2] Getting messages from entity (limit=10)
+2025-10-21 15:51:37 [DEBUG] [DEBUG 2] ✅ Got 10 messages
+2025-10-21 15:51:37 [DEBUG] [DEBUG 3] Processing message ID: 2107
+2025-10-21 15:51:37 [DEBUG] [DEBUG 4] Checking if post 2107 exists in DB
+2025-10-21 15:51:37 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2107
+2025-10-21 15:51:37 [DEBUG] [DEBUG 3] Processing message ID: 2105
+2025-10-21 15:51:37 [DEBUG] [DEBUG 4] Checking if post 2105 exists in DB
+2025-10-21 15:51:37 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2105
+2025-10-21 15:51:37 [DEBUG] [DEBUG 3] Processing message ID: 2104
+2025-10-21 15:51:37 [DEBUG] [DEBUG 4] Checking if post 2104 exists in DB
+2025-10-21 15:51:37 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2104
+2025-10-21 15:51:37 [DEBUG] [DEBUG 3] Processing message ID: 2102
+2025-10-21 15:51:37 [DEBUG] [DEBUG 4] Checking if post 2102 exists in DB
+2025-10-21 15:51:37 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2102
+2025-10-21 15:51:37 [DEBUG] [DEBUG 3] Processing message ID: 2101
+2025-10-21 15:51:37 [DEBUG] [DEBUG 4] Checking if post 2101 exists in DB
+2025-10-21 15:51:37 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2101
+2025-10-21 15:51:37 [DEBUG] [DEBUG 3] Processing message ID: 2100
+2025-10-21 15:51:37 [INFO] [Channel 2100098740] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-21 15:51:37 [DEBUG] [DEBUG 11] Sorting 0 posts
+2025-10-21 15:51:37 [DEBUG] [DEBUG 12] Saving posts to database
+2025-10-21 15:51:37 [DEBUG] [DEBUG 13] Committing posts
+2025-10-21 15:51:37 [INFO] [Channel 2100098740] 💾 Committed 0 new posts.
+2025-10-21 15:51:37 [DEBUG] [DEBUG 14] Saving messages to database
+2025-10-21 15:51:37 [DEBUG] [DEBUG 15] Committing messages
+2025-10-21 15:51:37 [INFO] [Channel 2100098740] 📝 Committed 0 new messages.
+2025-10-21 15:51:37 [INFO] [Channel 2100098740] ✅ Completed: 0 new messages saved.
+2025-10-21 15:51:37 [DEBUG] [DEBUG] Cursor closed
+2025-10-21 15:51:37 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:52:08 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:52:08 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:52:08 [DEBUG] [DEBUG 1] Getting entity for 2100098740
+2025-10-21 15:52:08 [DEBUG] [DEBUG 1] ✅ Entity obtained: 2100098740
+2025-10-21 15:52:08 [DEBUG] [DEBUG 2] Getting messages from entity (limit=10)
+2025-10-21 15:52:09 [DEBUG] [DEBUG 2] ✅ Got 10 messages
+2025-10-21 15:52:09 [DEBUG] [DEBUG 3] Processing message ID: 2107
+2025-10-21 15:52:09 [DEBUG] [DEBUG 4] Checking if post 2107 exists in DB
+2025-10-21 15:52:09 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2107
+2025-10-21 15:52:09 [DEBUG] [DEBUG 3] Processing message ID: 2105
+2025-10-21 15:52:09 [DEBUG] [DEBUG 4] Checking if post 2105 exists in DB
+2025-10-21 15:52:09 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2105
+2025-10-21 15:52:09 [DEBUG] [DEBUG 3] Processing message ID: 2104
+2025-10-21 15:52:09 [DEBUG] [DEBUG 4] Checking if post 2104 exists in DB
+2025-10-21 15:52:09 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2104
+2025-10-21 15:52:09 [DEBUG] [DEBUG 3] Processing message ID: 2102
+2025-10-21 15:52:09 [DEBUG] [DEBUG 4] Checking if post 2102 exists in DB
+2025-10-21 15:52:09 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2102
+2025-10-21 15:52:09 [DEBUG] [DEBUG 3] Processing message ID: 2101
+2025-10-21 15:52:09 [DEBUG] [DEBUG 4] Checking if post 2101 exists in DB
+2025-10-21 15:52:09 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2101
+2025-10-21 15:52:09 [DEBUG] [DEBUG 3] Processing message ID: 2100
+2025-10-21 15:52:09 [INFO] [Channel 2100098740] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-21 15:52:09 [DEBUG] [DEBUG 11] Sorting 0 posts
+2025-10-21 15:52:09 [DEBUG] [DEBUG 12] Saving posts to database
+2025-10-21 15:52:09 [DEBUG] [DEBUG 13] Committing posts
+2025-10-21 15:52:09 [INFO] [Channel 2100098740] 💾 Committed 0 new posts.
+2025-10-21 15:52:09 [DEBUG] [DEBUG 14] Saving messages to database
+2025-10-21 15:52:09 [DEBUG] [DEBUG 15] Committing messages
+2025-10-21 15:52:09 [INFO] [Channel 2100098740] 📝 Committed 0 new messages.
+2025-10-21 15:52:09 [INFO] [Channel 2100098740] ✅ Completed: 0 new messages saved.
+2025-10-21 15:52:09 [DEBUG] [DEBUG] Cursor closed
+2025-10-21 15:52:09 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 15:56:14 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 15:56:14 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 15:56:17 [DEBUG] 📥 Đã tải ảnh 2105 → downloads/2100098740\2105.jpg
+2025-10-21 15:56:22 [INFO] 🖼️ Ảnh đã xử lý xong: processed/2100098740\2105.jpg
+2025-10-21 15:56:26 [DEBUG] 📥 Đã tải ảnh 2102 → downloads/2100098740\2102.jpg
+2025-10-21 15:56:30 [INFO] 🖼️ Ảnh đã xử lý xong: processed/2100098740\2102.jpg
+2025-10-21 15:56:32 [INFO] [Channel 2100098740] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-21 15:56:32 [INFO] [Channel 2100098740] 💾 Committed 5 new posts.
+2025-10-21 15:56:32 [INFO] [Channel 2100098740] 📝 Committed 5 new messages.
+2025-10-21 15:56:32 [ERROR] ❗ Failed to send message to 9876543210: Could not find the input entity for PeerUser(user_id=9876543210) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details. 6
+2025-10-21 15:56:32 [ERROR] ❗ Failed to send message to 9876543210: Could not find the input entity for PeerUser(user_id=9876543210) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details. 7
+2025-10-21 15:56:32 [ERROR] ❗ Failed to send message to 9876543210: Could not find the input entity for PeerUser(user_id=9876543210) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details. 8
+2025-10-21 15:56:32 [ERROR] ❗ Failed to send message to 9876543210: Could not find the input entity for PeerUser(user_id=9876543210) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details. 9
+2025-10-21 15:56:33 [ERROR] ❗ Failed to send message to 9876543210: Could not find the input entity for PeerUser(user_id=9876543210) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details. 10
+2025-10-21 15:56:33 [INFO] [Channel 2100098740] ✅ Completed: 5 new messages saved.
+2025-10-21 15:56:33 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 16:00:24 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 16:00:24 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 16:00:26 [DEBUG] 📥 Đã tải ảnh 2105 → downloads/2100098740\2105.jpg
+2025-10-21 16:00:31 [INFO] 🖼️ Ảnh đã xử lý xong: processed/2100098740\2105.jpg
+2025-10-21 16:00:33 [DEBUG] 📥 Đã tải ảnh 2102 → downloads/2100098740\2102.jpg
+2025-10-21 16:00:37 [INFO] 🖼️ Ảnh đã xử lý xong: processed/2100098740\2102.jpg
+2025-10-21 16:00:39 [INFO] [Channel 2100098740] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-21 16:00:39 [INFO] [Channel 2100098740] 💾 Committed 5 new posts.
+2025-10-21 16:00:39 [INFO] [Channel 2100098740] 📝 Committed 5 new messages.
+2025-10-21 16:00:39 [INFO] 💬 Sent text → 2925426333 | ID: 220
+2025-10-21 16:00:40 [INFO] 🖼️ Sent photo → 2925426333 | ID: 221
+2025-10-21 16:00:40 [INFO] 💬 Sent text → 2925426333 | ID: 222
+2025-10-21 16:00:41 [INFO] 🖼️ Sent photo → 2925426333 | ID: 223
+2025-10-21 16:00:41 [INFO] 💬 Sent text → 2925426333 | ID: 224
+2025-10-21 16:00:41 [INFO] [Channel 2100098740] ✅ Completed: 5 new messages saved.
+2025-10-21 16:00:41 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 16:01:12 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 16:01:12 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 16:01:12 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2107
+2025-10-21 16:01:12 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2105
+2025-10-21 16:01:12 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2104
+2025-10-21 16:01:12 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2102
+2025-10-21 16:01:12 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2101
+2025-10-21 16:01:12 [INFO] [Channel 2100098740] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-21 16:01:12 [INFO] [Channel 2100098740] 💾 Committed 0 new posts.
+2025-10-21 16:01:12 [INFO] [Channel 2100098740] 📝 Committed 0 new messages.
+2025-10-21 16:01:12 [INFO] [Channel 2100098740] ✅ Completed: 0 new messages saved.
+2025-10-21 16:01:12 [INFO] 🛑 Telegram clients disconnected
+2025-10-21 16:01:43 [INFO] ✅ Telegram clients (fetch & send) started successfully
+2025-10-21 16:01:43 [INFO] 🔍 Fetching messages from channel 2100098740 (limit=10)
+2025-10-21 16:01:44 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2107
+2025-10-21 16:01:44 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2105
+2025-10-21 16:01:44 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2104
+2025-10-21 16:01:44 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2102
+2025-10-21 16:01:44 [DEBUG] [Channel 2100098740] 🔁 Skipping existing message ID 2101
+2025-10-21 16:01:44 [INFO] [Channel 2100098740] ⏹️ Reached 5 newest posts, stop fetching.
+2025-10-21 16:01:44 [INFO] [Channel 2100098740] 💾 Committed 0 new posts.
+2025-10-21 16:01:44 [INFO] [Channel 2100098740] 📝 Committed 0 new messages.
+2025-10-21 16:01:44 [INFO] [Channel 2100098740] ✅ Completed: 0 new messages saved.
+2025-10-21 16:01:44 [INFO] 🛑 Telegram clients disconnected

@@ -1,21 +1,19 @@
--- =========================================================
--- 1️⃣ Bảng CHANNELS_CONFIG — cấu hình kênh nguồn / đích
--- =========================================================
+
 CREATE TABLE IF NOT EXISTS channels (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     channel_id BIGINT NOT NULL,                -- ID kênh nguồn (Telegram)
     target_channel_id BIGINT NOT NULL,         -- ID kênh đích để repost
     old_watermark VARCHAR(255),
     new_watermark VARCHAR(255),
+    old_caption TEXT,                          -- Caption cũ cần thay
+    new_caption TEXT,                          -- Caption mới để thay thế
     apply_watermark BOOLEAN DEFAULT TRUE,
     status ENUM('active','disabled') DEFAULT 'active',
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
--- =========================================================
--- 2️⃣ Bảng POSTS — đại diện cho 1 bài đăng (bài đơn hoặc album)
--- =========================================================
+
 
 CREATE TABLE IF NOT EXISTS posts (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
@@ -39,9 +37,7 @@ CREATE TABLE IF NOT EXISTS posts (
 );
 
 
--- =========================================================
--- 3️⃣ Bảng MESSAGES — từng phần tử trong bài đăng (text, ảnh, video, ...)
--- =========================================================
+
 CREATE TABLE IF NOT EXISTS messages (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     post_id BIGINT NOT NULL,                   -- Liên kết tới bài post

@@ -8,8 +8,8 @@ class Config:
         :param config_path: path to config.json
         """
         if config_path is None:
-            # mặc định là cùng folder với file này
-            config_path = Path(__file__).parent / "config.json"
+            # Lấy thư mục chứa file này (config.py)
+            config_path = Path(__file__).parent.parent / "config.json"
         else:
             config_path = Path(config_path)
 
@@ -36,9 +36,9 @@ class Config:
     def data(self):
         return self._data
 
-# Demo nhanh
-# if __name__ == "__main__":
-#     config = Config()
-#     print(config.get("mysql.host"))
-#     print(config.get("translator.target_lang"))
-#     print(config.get("database.host"))
+
+if __name__ == "__main__":
+    config = Config()
+    print(config.get("mysql.host"))
+    print(config.get("translator.target_lang"))
+    print(config.get("database.host"))

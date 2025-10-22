@@ -3,7 +3,7 @@ from pathlib import Path
 import logging,os
 from telethon import TelegramClient
 from telethon.tl.types import MessageMediaPhoto,MessageService
-
+import re
 from models.post import Post
 from models.message import Messages
 from services.translator import Translator
@@ -42,7 +42,7 @@ class TelegramClientWrapper:
             self.initialized = True
 
     async def start_all(self):
-        """Khởi động cả 2 account"""
+      
         if not TelegramClientWrapper._is_connected:
             await TelegramClientWrapper._fetch_client.start()
             await TelegramClientWrapper._send_client.start()
@@ -81,11 +81,7 @@ class TelegramClientWrapper:
             Logger.error(f"❌ Failed to get messages from {entity}: {e}")
             return []
     async def process_photo(self, file_path: str, channel):
-        """
-        Hàm xử lý ảnh sau khi tải:
-        - Thay watermark cũ bằng watermark mới
-        - Tự động lưu vào thư mục 'processed/'
-        """
+        
         try:
             if not file_path or not os.path.exists(file_path):
                 Logger.warning("⚠️ File không tồn tại, bỏ qua xử lý ảnh.")
@@ -222,7 +218,7 @@ class TelegramClientWrapper:
     async def fetch_new_messages_for_channel(self, connection, channel, limit: int = 10):
         cursor = connection.cursor()
         try:
-            # --- Xử lý channel_id ---
+          
             raw = str(channel.channel_id)
             if raw.startswith("-100"):
                 channel_id = int(raw)
@@ -250,7 +246,7 @@ class TelegramClientWrapper:
             posts_messages_map = {}
 
             for msg in messages:
-                # Skip các loại media không cần
+           
                 if msg.video or msg.gif or msg.document or msg.audio or msg.voice or msg.sticker or msg.poll or msg.web_preview or isinstance(msg, MessageService):
                     continue
 
@@ -295,6 +291,8 @@ class TelegramClientWrapper:
 
              
                 text = msg.text.strip() if getattr(msg, "text", None) else None
+                if text:
+                    text = re.sub(re.escape(channel.old_caption), channel.new_caption, text, flags=re.IGNORECASE)
                 translated = self.translator.translate_text(text) if text else None
 
                 if not getattr(msg, "media", None):
@@ -326,20 +324,21 @@ class TelegramClientWrapper:
                         except Exception as e:
                             Logger.error(f"[Channel {channel.channel_id}] ❌ Error downloading media {media_msg.id}: {e}")
                             continue
-
+                        text1 = (media_msg.text or "").strip()
+                        if text1 :
+                            text1 = re.sub(re.escape(channel.old_caption), channel.new_caption, text, flags=re.IGNORECASE)
+                        translated = self.translator.translate_text(text1) if text1 else None   
                         message_obj = Messages(
                             post_id=None,
                             telegram_message_id=media_msg.id,
                             target_telegram_message_id=None,
                             media_type="photo",
-                            original_text=(media_msg.text.strip() if getattr(media_msg, "text", None) else text),
-                            translated_text=(self.translator.translate_text(media_msg.text.strip()) if getattr(media_msg, "text", None) else translated),
+                            original_text=text1,
+                            translated_text=translated,
                             original_file_path=file_path,
                             processed_file_path=file_process_path
                         )
                         posts_messages_map[post].append(message_obj)
-
-          
             sorted_posts = sorted(posts_messages_map.keys(), key=lambda p: p.telegram_source_id)
             for post in sorted_posts:
                 parent_id = post.parent_telegram_source_id
@@ -362,15 +361,7 @@ class TelegramClientWrapper:
 
          
             for post in sorted_posts:  
-                raw = str(channel.target_channel_id)
-                
-                if raw.startswith("-100"):
-                    target_channel_id = int(raw)
-                elif raw.startswith("-"):
-                    target_channel_id = int(raw)
-                else:
-                    target_channel_id = int(f"-100{raw}")
-                await self.send_message(target_channel_id, post, cursor)
+                await self.send_message(channel.target_channel_id, post, cursor)
 
             Logger.info(f"[Channel {channel.channel_id}] ✅ Completed: {saved_count} new messages saved.")
 

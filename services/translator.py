@@ -1,46 +1,74 @@
-from config.config import Config  
-from openai import OpenAI
+
+# translator.py
+from deep_translator import GoogleTranslator
+import logging
+
+Logger = logging.getLogger(__name__)
 
 
 class Translator:
     def __init__(self):
+        from config.config import Config
         config = Config()
         self.target_lang = config.get("translator.target_lang", "en")
-        api_key = config.get("openai.api_key")
-        base_url = config.get("openai.base_url", "https://openrouter.ai/api/v1")
-
-        self.client = OpenAI(base_url=base_url, api_key=api_key)
+        self.lang_map = {
+            "vi": "vi",
+            "en": "en",
+            "zh": "zh-CN",
+            "ja": "ja",
+            "ko": "ko"
+        }
+        
+        self.enabled = True
+        Logger.info(f"✅ Google Translator initialized (target: {self.target_lang})")
 
     def translate_text(self, text, target_language=None):
-        target_language = target_language or self.target_lang
-
-        response = self.client.chat.completions.create(
-            model="deepseek/deepseek-chat-v3.1:free",
-            messages=[
-                {
-                    "role": "system",
-                    "content": (
-                        f"You are a professional translator. "
-                        f"Translate everything into {target_language}. "
-                        "Keep emojis, punctuation, newlines, and spacing exactly as in the original text. "
-                        "Do NOT modify or remove any symbols, markdown, or formatting."
-                    ),
-                },
-                {"role": "user", "content": text},
-            ],
-        )
-
-        result = response.choices[0].message.content.strip()
-
-        bad_tokens = [
-            "<｜begin▁of▁sentence｜>",
-            "<｜end▁of▁sentence｜>",
-            "<|begin_of_sentence|>",
-            "<|end_of_sentence|>",
-        ]
-        for token in bad_tokens:
-            result = result.replace(token, "")
-
-        return result.strip()
-
-
+   
+        if not text or not text.strip():
+            return text
+        
+        target = target_language or self.target_lang
+        target_code = self.lang_map.get(target, target)
+        
+        try:
+            
+            translator = GoogleTranslator(source='auto', target=target_code)
+            
+      
+            if len(text) > 4500:
+             
+                chunks = self._split_text(text, 4500)
+                translated_chunks = []
+                for chunk in chunks:
+                    translated_chunks.append(translator.translate(chunk))
+                result = " ".join(translated_chunks)
+            else:
+                result = translator.translate(text)
+            
+            Logger.debug(f"✅ Translated: {text[:30]}... → {result[:30]}...")
+            return result
+            
+        except Exception as e:
+            Logger.warning(f"⚠️ Translation failed: {e}, returning original")
+            return text 
+    
+    def _split_text(self, text, max_length):
+ 
+        words = text.split()
+        chunks = []
+        current_chunk = []
+        current_length = 0
+        
+        for word in words:
+            if current_length + len(word) + 1 > max_length:
+                chunks.append(" ".join(current_chunk))
+                current_chunk = [word]
+                current_length = len(word)
+            else:
+                current_chunk.append(word)
+                current_length += len(word) + 1
+        
+        if current_chunk:
+            chunks.append(" ".join(current_chunk))
+        
+        return chunks

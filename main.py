@@ -1,4 +1,4 @@
-import asyncio
+﻿import asyncio
 import os
 import time
 from datetime import datetime
@@ -12,6 +12,7 @@ from models.channel import Channel
 from db.mysql import connection, get_cursor
 from utils.logger import Logger
 from config.config import Config
+
 console = Console()
 def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -60,7 +61,7 @@ class BotServiceManager:
 
 
 def show_results_table(results, scan_time):
-    clear_console()
+    
 
     console.print(
         Panel.fit(
@@ -95,6 +96,7 @@ def show_results_table(results, scan_time):
     console.print(table)
     console.print("\n")
 async def main():
+  
     config = Config()
     API_ID = config.get("telegram.api_id", 28288961)
     API_HASH = config.get("telegram.api_hash", "616b006a2ba5538ad6ec731844ebc05a")
@@ -126,4 +128,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
